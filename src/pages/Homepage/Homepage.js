@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Bio from '../../components/Bio'
 const Homepage = () => {
   return (
-    <h1>This is the homepage</h1>
+    <Bio />
   )
 }
 

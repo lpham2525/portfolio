@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-pink-romantic-beautiful-cosmetics-psd-layered-master-map-background-material-image_132613.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.bio {
+  height: 50%;
+  width: 90%;
+  font-size: 30px;
+  background-color: palevioletred;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.pic{
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin: 10px;
+}
