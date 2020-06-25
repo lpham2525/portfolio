@@ -1,7 +1,6 @@
 import React from 'react'
 import './Bio.css'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import Typography from '@material-ui/core/Typography'
 import Container from '@material-ui/core/Container'
 import pic from './pic.jpg'
 
@@ -11,7 +10,7 @@ const Bio = () => {
       <CssBaseline />
       <Container maxWidth='sm'>
         <div>
-          <img src={pic} alt='profile picture' className='pic' />
+          <img src={pic} alt='profile' className='pic' />
           <br />
           <h2>Email: Lpham2525@gmail.com</h2>
         </div>

@@ -1,21 +1,32 @@
 import React from 'react'
 import {
   Switch,
-  Link,
   Route,
+  Link,
   BrowserRouter as Router
 } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
-import Bio from './components/Bio'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <Router>
       <div>
         <Navbar />
+        <nav>
+          <Link to='/'>
+            Homepage
+          </Link>
+          <Link to='/Portfolio'>
+            Portfolio
+          </Link>
+          <Link to='/Contact'>
+            Contact
+          </Link>
+        </nav>
         <Switch>
 
           <Route exact path='/'>
@@ -29,6 +40,7 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   )
