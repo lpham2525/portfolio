@@ -19,7 +19,7 @@ const Bio = () => {
         </div>
         <div>
           Email: Lpham2525@gmail.com
-          <br/>
+          <br />
           GitHub: https://github.com/lpham2525
           <br />
           LinkedIn: https://www.linkedin.com/in/lanchi-pham/
