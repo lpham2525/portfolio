@@ -13,11 +13,29 @@ body {
   margin-bottom: 100px;
 }
 
+.info{
+  height: 50%;
+  width: 90%;
+  font-size: 30px;
+  background-color: goldenrod;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.proList {
+  height: 50%;
+  width: 90%;
+  font-size: 30px;
+  background-color: purple;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
 h2 {
   font-size: 25px;
 }
 
-.pic{
+.pic {
   height: 200px;
   width: 200px;
   border-radius: 50px;
