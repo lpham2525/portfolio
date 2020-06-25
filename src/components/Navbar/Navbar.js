@@ -27,15 +27,6 @@ const Navbar = () => {
     <AppBar position='static'>
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          <Link to='/' color='inherit'>
-            Homepage
-          </Link>
-          <Link to='/Portfolio' color='inherit'>
-            Portfolio
-          </Link>
-          <Link to='/Contact' color='inherit'>
-            Contact
-          </Link>
           <Link to="/" color='inherit' className={classes.link}>
             Homepage
           </Link>

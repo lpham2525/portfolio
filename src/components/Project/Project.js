@@ -1,4 +1,5 @@
 import React from 'react'
+import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import CardActionArea from '@material-ui/core/CardActionArea'
@@ -13,6 +14,7 @@ import gem from './gem.png'
 import tempEng from './tempEng.png'
 import weather from './weather.png'
 import stats from './stats.png'
+import budget from './budget.png'
 
 const useStyles = makeStyles({
   root: {
@@ -33,6 +35,12 @@ const Project = () => {
   const classes = useStyles()
   return (
     <>
+      <Grid
+        container
+        direction="row"
+        justify="space-evenly"
+        alignItems="center"
+      >
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
@@ -109,7 +117,14 @@ const Project = () => {
           </Button>
         </CardActions>
       </Card>
+      </Grid>
 
+      <Grid
+        container
+        direction="row"
+        justify="space-evenly"
+        alignItems="center"
+      >
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
@@ -187,6 +202,7 @@ const Project = () => {
           </Button>
         </CardActions>
       </Card>
+      </Grid>
     </>
   )
 }
