@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     top: 'auto',
     padding: 20,
     bottom: 0,
-    position: 'fixed'
+    position: 'relative'
   }
 }))
 

@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography'
 import './Project.css'
 import artist from './artistaday.png'
 import gem from './gem.png'
-import tempEng from './tempEng.png'
+import directory from './directory.png'
 import weather from './weather.png'
 import stats from './stats.png'
 import budget from './budget.png'
@@ -21,7 +21,6 @@ const useStyles = makeStyles({
     maxWidth: 345,
     margin: 20,
     padding: 20,
-    flexDirection: 'row',
     justifyContent: 'space-around',
     alignContent: 'center',
     backgroundColor: 'skyblue'
@@ -40,6 +39,7 @@ const Project = () => {
         direction="row"
         justify="space-evenly"
         alignItems="center"
+        className="Project"
       >
       <Card className={classes.root}>
         <CardActionArea>
@@ -57,7 +57,7 @@ const Project = () => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href='https://github.com/erikapaige/LittleGems/tree/LanChi'>
+          <Button size="small" color="primary" href='https://github.com/erikapaige/LittleGems/tree/LanChi' target='_blank'>
             GitHub Link
           </Button>
           <Button size="small" color="primary" href ='#' target='_blank'>
@@ -83,10 +83,10 @@ const Project = () => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href='https://github.com/usrs/ArtistaDay'>
+            <Button size="small" color="primary" href='https://github.com/usrs/ArtistaDay' target='_blank'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary" href='https://hidden-inlet-64215.herokuapp.com/'>
+            <Button size="small" color="primary" href='https://hidden-inlet-64215.herokuapp.com/' target='_blank'>
             Deployed App
           </Button>
         </CardActions>
@@ -96,23 +96,23 @@ const Project = () => {
         <CardActionArea>
           <CardMedia
             className={classes.media}
-            image={tempEng}
+            image={directory}
             alt='Template Engine screenshot'
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Template Engine
+              User Directory
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              The app asks users a series of questions about each person on their engineering team in order to create an organized, readable roster. The team can be any combination of managers, engineers, and interns with a role-specific question for each member. Once all information has been collected from the user, the template engine will assemble an HTML page which exhibits information about each member on a formatted card.
+                The User Directory app provides users a way to view non-sensitive data about the people in the directory. It allows users to sort the table by last name or job title as well as filter the directory by first or last name. The app is built with React and breaks up the application's UI into components, manages component state, and responds to user events.
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href='https://github.com/lpham2525/templateEngine' target='_blank'>
+          <Button size="small" color="primary" href='https://github.com/lpham2525/directory' target='_blank'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary" href="https://lpham2525.github.io/templateEngine/" target='_blank'>
+            <Button size="small" color="primary" href="https://lpham2525.github.io/directory/" target='_blank'>
             Deployed App
           </Button>
         </CardActions>
@@ -168,7 +168,7 @@ const Project = () => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href='https://github.com/lpham2525/workout_tracker'>
+            <Button size="small" color="primary" href='https://github.com/lpham2525/workout_tracker' target='_blank'>
             GitHub Link
           </Button>
           <Button size="small" color="primary" href='https://boiling-ocean-01580.herokuapp.com/' target='_blank'>
@@ -194,7 +194,7 @@ const Project = () => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href='https://github.com/lpham2525/budget'>
+            <Button size="small" color="primary" href='https://github.com/lpham2525/budget' target='_blank'>
             GitHub Link
           </Button>
           <Button size="small" color="primary" href='https://guarded-spire-68532.herokuapp.com/' target='_blank'>

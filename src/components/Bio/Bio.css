@@ -14,12 +14,12 @@ body {
 }
 
 .info{
-  height: 50%;
+  height: 100%;
   width: 90%;
   font-size: 30px;
   background-color: goldenrod;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .proList {

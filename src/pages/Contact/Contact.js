@@ -25,52 +25,59 @@ const Contact = () => {
       <h1 id='contactHeader'>I'd love to hear from you!</h1>
       <p className='paragraph'>Fill out the following form if you would like to send me a message. Thank you! </p>
       <form>
-        <div className='form-group'>
-          <label htmlFor='Name' />
-          <TextField
-            required
-            id="filled-required"
-            label="Required"
-            placeholder="Name"
-            variant="outlined"
-          />
-        </div>
-        <div className='form-group'>
-          <label htmlFor='exampleInputEmail1' />
-          <TextField
-            required
-            id="filled-required"
-            label="Required"
-            placeholder="Email"
-            variant="outlined"
-          />
-          <small id='emailHelp' className='form-text text-muted' />
-        </div>
-        <div className='form-group'>
-          <label htmlFor='subject' />
-          <TextField
-            id="outlined-helperText"
-            placeholder="Subject"
-            variant="outlined"
-          />
-          <small className='form-text text-muted' />
-        </div>
+        <p>
+          <div className='form-group'>
+            <label htmlFor='Name' />
+            <TextField
+              required
+              id="filled-required"
+              label="Required"
+              placeholder="Name"
+              variant="outlined"
+              className="white"
+            />
+          </div>
+        </p>
+        <p>
+          <div className='form-group'>
+            <label htmlFor='exampleInputEmail1' />
+            <TextField
+              required
+              id="filled-required"
+              label="Required"
+              placeholder="Email"
+              variant="outlined"
+              className="white"
+            />
+            <small id='emailHelp' className='form-text text-muted' />
+          </div>
+        </p>
+        <p>
+          <div className='form-group'>
+            <label htmlFor='subject' />
+            <TextField
+              id="outlined-helperText"
+              placeholder="Subject"
+              variant="outlined"
+              className="white"
+            />
+            <small className='form-text text-muted' />
+          </div>
+        </p>
         <div className='form-group'>
           <label htmlFor='Message' />
-          <TextareaAutosize
-            rowsMax={10}
-            aria-label="maximum height"
-            placeholder="Please type message here."
-          />
+          <textarea cols="80" rows="15" placeholder='Please type message here.' />
         </div>
-        <Button
-          variant="contained"
-          color="primary"
-          className={classes.button}
-          endIcon={<Icon>send</Icon>}
-        >
-         Send
-        </Button>
+        <p>
+          <Button
+            variant="contained"
+            color="primary"
+            className={classes.button}
+            endIcon={<Icon>send</Icon>}
+          >
+          Send
+          </Button>
+        </p>
       </form>
     </>
   )
