@@ -7,11 +7,12 @@ import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
-import './Card.css'
+import './Project.css'
 import artist from './artistaday.png'
 import gem from './gem.png'
 import tempEng from './tempEng.png'
 import weather from './weather.png'
+import stats from './stats.png'
 
 const useStyles = makeStyles({
   root: {
@@ -28,7 +29,7 @@ const useStyles = makeStyles({
   }
 })
 
-const Portfolio = () => {
+const Project = () => {
   const classes = useStyles()
   return (
     <>
@@ -48,10 +49,10 @@ const Portfolio = () => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href='https://github.com/erikapaige/LittleGems/tree/LanChi'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href ='#' target='_blank'>
             Deployed App
           </Button>
         </CardActions>
@@ -74,15 +75,15 @@ const Portfolio = () => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href='https://github.com/usrs/ArtistaDay'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href='https://hidden-inlet-64215.herokuapp.com/'>
             Deployed App
           </Button>
         </CardActions>
       </Card>
-      <hr />
+
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
@@ -103,7 +104,7 @@ const Portfolio = () => {
           <Button size="small" color="primary" href='https://github.com/lpham2525/templateEngine' target='_blank'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href="https://lpham2525.github.io/templateEngine/" target='_blank'>
             Deployed App
           </Button>
         </CardActions>
@@ -121,7 +122,7 @@ const Portfolio = () => {
               Weather Dashboard
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app where users can input the name of a city and receive weather information for that city. Information includes current temperature, humidity, windspeed, and UV index as well as a five-day forecast. Users can also save the city in their searches for convenient navigation and future use.
+              An app where users can input the name of a city and receive weather information for that city. Information includes current temperature, humidity, wind speed, and UV index as well as a five-day forecast. Users can also save the city in their searches for convenient navigation and future use.
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -129,7 +130,7 @@ const Portfolio = () => {
           <Button size="small" color="primary" href='https://github.com/lpham2525/weatherdashboard' target='_blank'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href='https://lpham2525.github.io/weatherdashboard/' target='_blank'>
             Deployed App
           </Button>
         </CardActions>
@@ -139,23 +140,23 @@ const Portfolio = () => {
         <CardActionArea>
           <CardMedia
             className={classes.media}
-            image={artist}
-            alt='Artist A Day screenshot'
+            image={stats}
+            alt='Workout Tracker screenshot'
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Artist A Day
+              Workout Tracker
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale.
+              An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href='https://github.com/lpham2525/workout_tracker'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href='https://boiling-ocean-01580.herokuapp.com/' target='_blank'>
             Deployed App
           </Button>
         </CardActions>
@@ -165,23 +166,23 @@ const Portfolio = () => {
         <CardActionArea>
           <CardMedia
             className={classes.media}
-            image={artist}
-            alt='Artist A Day screenshot'
+            image={budget}
+            alt='Budget Tracker screenshot'
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Artist A Day
+              Budget Tracker
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale.
+              An app in which users can add expenses and deposits to their budget with or without an internet connection. When entering transactions offline, the budget tracker will populate the total with the adjusted transactions when brought back online.
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href='https://github.com/lpham2525/budget'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary">
+          <Button size="small" color="primary" href='https://guarded-spire-68532.herokuapp.com/' target='_blank'>
             Deployed App
           </Button>
         </CardActions>
@@ -190,4 +191,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Project
