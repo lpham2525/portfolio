@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Switch,
   Route,
-  Link,
   BrowserRouter as Router
 } from 'react-router-dom'
 import Homepage from './pages/Homepage'

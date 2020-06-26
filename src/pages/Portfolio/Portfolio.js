@@ -1,11 +1,20 @@
 import React from 'react'
 import Project from '../../components/Project'
+import Grid from '@material-ui/core/Grid'
 
 const Portfolio = () => {
   return (
     <>
       <h1>Welcome the Portfolio Page!</h1>
-      <Project />
+      <Grid
+        container
+        direction="row"
+        justify="space-evenly"
+        alignItems="center"
+        className="Project"
+      >
+        <Project />
+      </Grid>
     </>
   )
 }
