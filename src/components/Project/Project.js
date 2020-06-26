@@ -134,30 +134,32 @@ const Project = repos => {
       </Card>
 
       <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={artist}
-          alt='Artist A Day screenshot'
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Artist A Day
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image={stats}
+            alt='Workout Tracker screenshot'
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Workout Tracker
                 </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            "An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale."
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" href='https://github.com/usrs/ArtistaDay' target='_blank'>
-          GitHub Link
+            <Typography variant="body2" color="textSecondary" component="p">
+              An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.
+                </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary" href='https://github.com/lpham2525/workout_tracker' target='_blank'>
+            GitHub Link
               </Button>
-        <Button size="small" color="primary" href='https://hidden-inlet-64215.herokuapp.com/' target='_blank'>
-          Deployed App
+          <Button size="small" color="primary" href='https://boiling-ocean-01580.herokuapp.com/' target='_blank'>
+            Deployed App
               </Button>
-      </CardActions>
-    </Card>
+        </CardActions>
+      </Card>
+
+      
 
       <Card className={classes.root}>
         <CardActionArea>
@@ -212,31 +214,31 @@ const Project = repos => {
         </Card>
 
       <Card className={classes.root}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={stats}
-              alt='Workout Tracker screenshot'
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                Workout Tracker
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image={artist}
+            alt='Artist A Day screenshot'
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Artist A Day
                 </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.
-                </Typography>
-            </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <Button size="small" color="primary" href='https://github.com/lpham2525/workout_tracker' target='_blank'>
-              GitHub Link
+            <Typography variant="body2" color="textSecondary" component="p">
+              "An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale."
+          </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary" href='https://github.com/usrs/ArtistaDay' target='_blank'>
+            GitHub Link
               </Button>
-            <Button size="small" color="primary" href='https://boiling-ocean-01580.herokuapp.com/' target='_blank'>
-              Deployed App
+          <Button size="small" color="primary" href='https://hidden-inlet-64215.herokuapp.com/' target='_blank'>
+            Deployed App
               </Button>
-          </CardActions>
-        </Card>
-
+        </CardActions>
+      </Card>
+      
       <Card className={classes.root}>
       <CardActionArea>
         <CardMedia

@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid'
 const Portfolio = () => {
   return (
     <>
-      <h1>Welcome the Portfolio Page!</h1>
+      <h1>Welcome to the Portfolio Page!</h1>
       <Grid
         container
         direction="row"
