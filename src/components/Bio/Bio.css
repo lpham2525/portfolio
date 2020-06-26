@@ -6,29 +6,20 @@ body {
 
 .bio {
   height: 50%;
-  width: 40%;
+  width: 700px;
   font-size: 30px;
   background-color: palevioletred;
-  padding: 20px;
-  margin-bottom: 100px;
-}
-
-.info{
-  height: 100%;
-  width: 40%;
-  font-size: 30px;
-  background-color: goldenrod;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-.proList {
+.info {
   height: 50%;
-  width: 90%;
+  width: 400px;
   font-size: 30px;
-  background-color: purple;
+  background-color: goldenrod;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 h2 {

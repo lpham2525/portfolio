@@ -36,24 +36,23 @@ const Bio = () => {
             </p>
             <p>
               <ins><strong>EMAIL</strong></ins>
-            <br /> 
+              <br /> 
             Lpham2525@gmail.com
             </p>
             <p>
               <img src={github} alt='github symbol' />
-            <br />
+              <br />
               <a href='https://github.com/lpham2525' target='_blank'>Github</a>
             </p>
-              <img src={linkedin} alt='linkedin logo' />
+            <img src={linkedin} alt='linkedin logo' />
             <br />
-              <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank'>LinkedIn</a>
+            <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank'>LinkedIn</a>
             <p>
               <img src={resume} alt="capital letter R" />
-                <br />
+              <br />
               <a href='https://drive.google.com/file/d/1JPn9p7DDy5I61cIDv9S1dr3HBxB-YYQq/view?usp=sharing' target='_blank'>Résumé</a>
-              </p>
+            </p>
           </div>
-
         </Grid>
       </Container>
     </>
