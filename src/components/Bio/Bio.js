@@ -24,7 +24,7 @@ const Bio = () => {
           justify="space-evenly"
           alignItems="center"
         >
-          <div className='row'>
+
           <div className='bio'>
           My goal is to become a junior developer and web designer who can create dynamic webpages that are responsive and interactive. I also enjoy styling and designing user interfaces. I am open to job opportunities as well as relocating to launch my coding career. Contact me if you'd like to know more!
           </div>
@@ -53,7 +53,7 @@ const Bio = () => {
               <a href='https://drive.google.com/file/d/1JPn9p7DDy5I61cIDv9S1dr3HBxB-YYQq/view?usp=sharing' target='_blank'>Résumé</a>
               </p>
           </div>
-          </div>
+
         </Grid>
       </Container>
     </>

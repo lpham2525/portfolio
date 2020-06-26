@@ -16,17 +16,6 @@ const App = () => {
     <Router>
       <div>
         <Navbar />
-        <nav>
-          <Link to='/'>
-            Homepage
-          </Link>
-          <Link to='/Portfolio'>
-            Portfolio
-          </Link>
-          <Link to='/Contact'>
-            Contact
-          </Link>
-        </nav>
         <Switch>
 
           <Route exact path='/'>

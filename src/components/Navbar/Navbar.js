@@ -1,6 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import Link from '@material-ui/core/Link'
+import { Link } from 'react-router-dom'
 import Typography from '@material-ui/core/Typography'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
@@ -30,10 +30,10 @@ const Navbar = () => {
           <Link to="/" color='inherit' className={classes.link}>
             Homepage
           </Link>
-          <Link to="./Portfolio" color="inherit" className={classes.link}>
+          <Link to="/Portfolio" color="inherit" className={classes.link}>
             Portfolio
           </Link>
-          <Link to='./Contact' color='inherit' className={classes.link}>
+          <Link to='/Contact' color='inherit' className={classes.link}>
             Contact
           </Link>
         </Typography>
