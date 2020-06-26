@@ -1,22 +1,7 @@
 # Unit 20 React: React Portfolio
-------------------------------------------
-Homepage
-____________________________________________________
-![Homepage](./src/img/home.png?raw=true "homepage")
-------------------------------------------
-Portfolio Page
-____________________________________________________
+
 ![Portfolio](./src/img/port.png?raw=true "portfolio page")
 ------------------------------------------
-Contact Page
-____________________________________________________
-![Contact](./src/img/send.png?raw=true " contact page")
----------------------------------------------------------------
-Contact Links
-____________________________________________________
-![Contact Links](./src/img/contact.png?raw=true "contact links")
--------------------------------------------------------------------
-
 A React portfolio created with components from Material UI Core. It features a `Header` and `Footer` component that appears on all pages, a single `Project` component that was used multiple times on the Portfolio page, navigation with React Router, and dynamic rendering.
 
 The contact information includes:
