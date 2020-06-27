@@ -28,13 +28,13 @@ const Navbar = () => {
     <AppBar position='static'>
       <Toolbar className='nav'>
         <Typography variant="h6" className={classes.title}>
-          <Link to="/" color='inherit' className={classes.link} className='link'>
+          <Link to="/" color='inherit' className={classes.link} className='links'>
             Homepage
           </Link>
-          <Link to="/Portfolio" color="inherit" className={classes.link} className='link'>
+          <Link to="/Portfolio" color="inherit" className={classes.link} className='links'>
             Portfolio
           </Link>
-          <Link to='/Contact' color='inherit' className={classes.link} className='link'>
+          <Link to='/Contact' color='inherit' className={classes.link} className='links'>
             Contact
           </Link>
         </Typography>

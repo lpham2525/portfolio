@@ -32,11 +32,11 @@ const Bio = () => {
             <p>
               <ins><strong>PHONE</strong></ins>
               <br />
-            714-696-2676
+            714-666-6666
             </p>
             <p>
               <ins><strong>EMAIL</strong></ins>
-              <br /> 
+              <br />
             Lpham2525@gmail.com
             </p>
             <p>
@@ -50,7 +50,7 @@ const Bio = () => {
             <p>
               <img src={resume} alt="capital letter R" />
               <br />
-              <a href='https://drive.google.com/file/d/1JPn9p7DDy5I61cIDv9S1dr3HBxB-YYQq/view?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
+              <a href='https://drive.google.com/file/d/1YO9aEWaJ8D2P_LvsplvhBI2sPhc-dWse/view?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
             </p>
           </div>
         </Grid>
