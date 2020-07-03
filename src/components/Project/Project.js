@@ -34,42 +34,42 @@ const Project = props => {
     [{
       id: 1,
       name: 'Little Gems',
-      image: './gem.png',
+      image: require('./gem.png'),
       github: 'https://github.com/erikapaige/LittleGems/tree/LanChi',
       app: 'https://erikapaige.github.io/LittleGems/',
       summary: "An app which points users to restaurants which have high ratings but are overlooked because they have sparse reviews.Using Google Maps, the app pinpoints the user's location and then leverages the user's input or keyword(s) to locate local eateries with ratings of 4 stars or higher but with fewer than 100 reviews."
     }, {
       id: 2,
       name: 'Artist A Day',
-      image: './artist.png',
+      image: require('./artist.png'),
       github: 'https://github.com/usrs/ArtistaDay',
       app: 'https://hidden-inlet-64215.herokuapp.com/',
       summary: "An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale."
     }, {
       id: 3,
       name: 'User directory',
-      image: './directory.png',
+      image: require('./directory.png'),
       github: 'https://github.com/lpham2525/directory',
       app: 'https://lpham2525.github.io/directory/',
       summary: "The User Directory app provides users a way to view non-sensitive data about the people in the directory. It allows users to sort the table by last name or job title as well as filter the directory by first or last name. The app is built with React and breaks up the application's UI into components, manages component state, and responds to user events."
     }, {
       id: 4,
       name: 'Weather Dashboard',
-      image: './weather.png',
+      image: require('./weather.png'),
       github: 'https://github.com/lpham2525/weatherdashboard',
       app: 'https://lpham2525.github.io/weatherdashboard/',
       summary: 'An app where users can input the name of a city and receive weather information for that city. Information includes current temperature, humidity, wind speed, and UV index as well as a five-day forecast. Users can also save the city in their searches for convenient navigation and future use.'
     }, {
       id: 5,
       name: 'Workout Tracker',
-      image: './stats.png',
+      image: require('./stats.png'),
       github: 'https://github.com/lpham2525/workout_tracker',
       app: 'https://boiling-ocean-01580.herokuapp.com/',
       summary: 'An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.'
     }, {
       id: 6,
       name: 'Budget Tracker',
-      image: './budget.png',
+      image: require('./budget.png'),
       github: 'https://github.com/lpham2525/budget',
       app: 'https://guarded-spire-68532.herokuapp.com/',
       summary: 'An app in which users can add expenses and deposits to their budget with or without an internet connection. When entering transactions offline, the budget tracker will populate the total with the adjusted transactions when brought back online.'
@@ -77,7 +77,7 @@ const Project = props => {
     {
       id: 7,
       name: 'Google Books Search',
-      image: './google.png',
+      image: require('./google.png'),
       github: 'https://github.com/lpham2525/googlebooks',
       app: 'https://vast-ridge-81306.herokuapp.com/',
       summary: "An app in which users can search for books using the GoogleBooks API. Users can also save the books to a Saved Page or click on a link to view the book's information. On the user's saved page will be the list of their saved books as well as the option to delete books."
