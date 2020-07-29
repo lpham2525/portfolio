@@ -10,8 +10,30 @@ import resume from './resume.jpg'
 import html from './html.jpg'
 import css from './css.jpg'
 import js from './js.jpg'
+import node from './node.jpg'
+import mysql from './mysql.jpg'
+import mongo from './mongo.jpg'
+import react from './react.jpg'
+import { makeStyles } from '@material-ui/core/styles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar';
+import ImageIcon from '@material-ui/icons/Image';
+import WorkIcon from '@material-ui/icons/Work';
+import BeachAccessIcon from '@material-ui/icons/BeachAccess';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '100%',
+    maxWidth: 360,
+    backgroundColor: theme.palette.background.paper
+  }
+}))
 
 const Bio = () => {
+  const classes = useStyles();
   return (
     <>
       <CssBaseline />
@@ -31,10 +53,44 @@ const Bio = () => {
           <div className='bio'>
           My goal is to become a junior developer and web designer who can create dynamic webpages that are responsive and interactive. I also enjoy styling and designing user interfaces. I am open to job opportunities as well as relocating to launch my coding career. Contact me if you'd like to know more!
           </div>
-          <div>
+          <div id='skills'>
+            <h3>Technical Skills</h3>
             <img src={html} alt='HTML5 symbol' />
             <img src={css} alt='CSS symbol' />
             <img src={js} alt='JavaScript symbol' />
+            <img src={node} alt='Node JS symbol' />
+            <img src={mysql} alt='MySQL symbol' />
+            <img src={mongo} alt='MongoDB symbol' />
+            <img src={react} alt='React JS symbol' />
+          </div>
+          <div id='other'>
+            <h3>Other Skills</h3>
+            <List className={classes.root}>
+              <ListItem>
+                <ListItemAvatar>
+                  <Avatar>
+                    <ImageIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText primary='Interdisciplinary collaboration' />
+              </ListItem>
+              <ListItem>
+                <ListItemAvatar>
+                  <Avatar>
+                    <WorkIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText primary="Analytical Skills"/>
+              </ListItem>
+              <ListItem>
+                <ListItemAvatar>
+                  <Avatar>
+                    <BeachAccessIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText primary="Problem-solving" />
+              </ListItem>
+            </List>
           </div>
           <div className='info'>
             <p>
