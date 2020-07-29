@@ -1,4 +1,4 @@
-# Unit 20 React: React Portfolio
+React Portfolio
 
 ![Portfolio](./src/img/port.png?raw=true "portfolio page")
 ------------------------------------------
