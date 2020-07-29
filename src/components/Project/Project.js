@@ -240,7 +240,7 @@ const Project = repos => {
               Little Gems
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              "An app which points users to restaurants which have high ratings but are overlooked because they have sparse reviews.Using Google Maps, the app pinpoints the user's location and then leverages the user's input or keyword(s) to locate local eateries with ratings of 4 stars or higher but with fewer than 100 reviews.
+              An app which points users to restaurants which have high ratings but are overlooked because they have sparse reviews.Using Google Maps, the app pinpoints the user's location and then leverages the user's input or keyword(s) to locate local eateries with ratings of 4 stars or higher but with fewer than 100 reviews.
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -343,7 +343,7 @@ const Project = repos => {
               Artist A Day
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              "An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale."
+              An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale.
             </Typography>
           </CardContent>
         </CardActionArea>
