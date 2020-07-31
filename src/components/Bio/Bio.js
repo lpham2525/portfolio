@@ -116,7 +116,7 @@ const Bio = () => {
             <p>
               <img src={resume} alt="capital letter R" />
               <br />
-              <a href='https://drive.google.com/file/d/1alIAJoWqCaqsxjWWOFLnxFG_np-UJCfs/view?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
+              <a href='https://drive.google.com/file/d/16xoE3nrZytlFOK936A7f_VrD2Cga4IOU/view?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
             </p>
           </div>
         </Grid>
