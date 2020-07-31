@@ -41,11 +41,12 @@ h2 {
   background-color: skyblue;
   height: 50%;
   width: 100%;
+  padding: 10px;
 }
 
 .other{
   background-color: blueviolet;
   height: 80%;
-  width: 80%;
+  width: 100%;
   margin: 20px;
 }
