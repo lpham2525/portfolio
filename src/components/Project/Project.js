@@ -369,7 +369,7 @@ const Project = repos => {
               React-folio
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app in which users can create their own portfolio using elements built entirely from React components. The app utilizes password authentication so users can register and sign in securely. They are then directed to a dashboard where they can build their portfolio and then click "publish" to finalize their work.
+              An app in which users can create their own portfolio using elements built entirely from React components. The app utilizes password authentication so users can register and sign in securely. They are then directed to a dashboard where they can build their portfolio and then click "publish" to see their final work.
             </Typography>
           </CardContent>
         </CardActionArea>

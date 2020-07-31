@@ -14,6 +14,7 @@ import node from './node.jpg'
 import mysql from './mysql.jpg'
 import mongo from './mongo.jpg'
 import react from './react.jpg'
+import three from './three.jpg'
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -53,18 +54,16 @@ const Bio = () => {
           <div className='bio'>
           My goal is to become a junior developer and web designer who can create dynamic webpages that are responsive and interactive. I also enjoy styling and designing user interfaces. I am open to job opportunities as well as relocating to launch my coding career. Contact me if you'd like to know more!
           </div>
-          <div id='skills'>
+          <div class='skills'>
             <h1>Technical Skills</h1>
-            <img src={html} alt='HTML5 symbol' />
-            <img src={css} alt='CSS symbol' />
-            <img src={js} alt='JavaScript symbol' />
+            <img src={three} alt='HTML5, CSS, JS symbol' />
             <img src={node} alt='Node JS symbol' />
             <img src={mysql} alt='MySQL symbol' />
             <img src={mongo} alt='MongoDB symbol' />
             <img src={react} alt='React JS symbol' />
           </div>
           <br />
-          <div id='other'>
+          <div class='other'>
             <h2>Other Skills</h2>
             <List className={classes.root}>
               <ListItem>
@@ -93,6 +92,7 @@ const Bio = () => {
               </ListItem>
             </List>
           </div>
+          <br />
           <br />
           <div className='info'>
             <p>
