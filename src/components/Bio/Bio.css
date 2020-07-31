@@ -40,11 +40,12 @@ h2 {
 .skills {
   background-color: skyblue;
   height: 50%;
-  width: 90%;
+  width: 100%;
 }
 
 .other{
-  background-color: indigo;
-  height: 50%;
-  width: 50%;
+  background-color: blueviolet;
+  height: 80%;
+  width: 80%;
+  margin: 20px;
 }

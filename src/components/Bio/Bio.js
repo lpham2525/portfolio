@@ -57,10 +57,10 @@ const Bio = () => {
           <div class='skills'>
             <h1>Technical Skills</h1>
             <img src={three} alt='HTML5, CSS, JS symbol' />
-            <img src={node} alt='Node JS symbol' />
             <img src={mysql} alt='MySQL symbol' />
             <img src={mongo} alt='MongoDB symbol' />
             <img src={react} alt='React JS symbol' />
+            <img src={node} alt='Node JS symbol' />
           </div>
           <br />
           <div class='other'>
