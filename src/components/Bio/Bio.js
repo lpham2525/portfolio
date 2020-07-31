@@ -54,7 +54,7 @@ const Bio = () => {
           My goal is to become a junior developer and web designer who can create dynamic webpages that are responsive and interactive. I also enjoy styling and designing user interfaces. I am open to job opportunities as well as relocating to launch my coding career. Contact me if you'd like to know more!
           </div>
           <div id='skills'>
-            <h3>Technical Skills</h3>
+            <h1>Technical Skills</h1>
             <img src={html} alt='HTML5 symbol' />
             <img src={css} alt='CSS symbol' />
             <img src={js} alt='JavaScript symbol' />
@@ -63,7 +63,9 @@ const Bio = () => {
             <img src={mongo} alt='MongoDB symbol' />
             <img src={react} alt='React JS symbol' />
           </div>
+          <br />
           <div id='other'>
+            <h2>Other Skills</h2>
             <List className={classes.root}>
               <ListItem>
                 <ListItemAvatar>
@@ -71,7 +73,7 @@ const Bio = () => {
                     <ImageIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary='Interdisciplinary collaboration' />
+                <ListItemText primary='Analytical Skills' />
               </ListItem>
               <ListItem>
                 <ListItemAvatar>
@@ -79,7 +81,7 @@ const Bio = () => {
                     <WorkIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary="Analytical Skills"/>
+                <ListItemText primary="Problem-Solving"/>
               </ListItem>
               <ListItem>
                 <ListItemAvatar>
@@ -87,10 +89,11 @@ const Bio = () => {
                     <BeachAccessIcon />
                   </Avatar>
                 </ListItemAvatar>
-                <ListItemText primary="Problem-solving" />
+                <ListItemText primary="Interdisciplinary Collaboration" />
               </ListItem>
             </List>
           </div>
+          <br />
           <div className='info'>
             <p>
               <ins><strong>PHONE</strong></ins>
