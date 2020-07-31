@@ -7,34 +7,13 @@ import pic from './pic.jpg'
 import github from './github.png'
 import linked from './linked.png'
 import resume from './resume.jpg'
-import html from './html.jpg'
-import css from './css.jpg'
-import js from './js.jpg'
 import node from './node.jpg'
 import mysql from './mysql.jpg'
 import mongo from './mongo.jpg'
 import react from './react.jpg'
 import three from './three.jpg'
-import { makeStyles } from '@material-ui/core/styles';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar';
-import ImageIcon from '@material-ui/icons/Image';
-import WorkIcon from '@material-ui/icons/Work';
-import BeachAccessIcon from '@material-ui/icons/BeachAccess';
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: '100%',
-    maxWidth: 360,
-    backgroundColor: theme.palette.background.paper
-  }
-}))
 
 const Bio = () => {
-  const classes = useStyles();
   return (
     <>
       <CssBaseline />
@@ -62,37 +41,6 @@ const Bio = () => {
             <img src={react} alt='React JS symbol' />
             <img src={node} alt='Node JS symbol' />
           </div>
-          <br />
-          <div class='other'>
-            <h2>Other Skills</h2>
-            <List className={classes.root}>
-              <ListItem>
-                <ListItemAvatar>
-                  <Avatar>
-                    <ImageIcon />
-                  </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary='Analytical Skills' />
-              </ListItem>
-              <ListItem>
-                <ListItemAvatar>
-                  <Avatar>
-                    <WorkIcon />
-                  </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="Problem-Solving"/>
-              </ListItem>
-              <ListItem>
-                <ListItemAvatar>
-                  <Avatar>
-                    <BeachAccessIcon />
-                  </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="Interdisciplinary Collaboration" />
-              </ListItem>
-            </List>
-          </div>
-          <br />
           <br />
           <div className='info'>
             <p>

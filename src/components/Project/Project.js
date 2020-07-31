@@ -251,6 +251,9 @@ const Project = repos => {
           <Button size="small" color="primary" href='https://erikapaige.github.io/LittleGems/' target='_blank'>
             Deployed App
           </Button>
+          <Button size="small" color="primary" href='#' target='_blank'>
+            More
+          </Button>
         </CardActions>
       </Card>
 
@@ -277,6 +280,9 @@ const Project = repos => {
           <Button size="small" color="primary" href='https://boiling-ocean-01580.herokuapp.com/' target='_blank'>
             Deployed App
           </Button>
+          <Button size="small" color="primary" href='#' target='_blank'>
+            More
+          </Button>
         </CardActions>
       </Card>
       <Card className={classes.root}>
@@ -301,6 +307,9 @@ const Project = repos => {
           </Button>
           <Button size="small" color="primary" href="https://lpham2525.github.io/directory/" target='_blank'>
             Deployed App
+          </Button>
+          <Button size="small" color="primary" href='#' target='_blank'>
+            More
           </Button>
         </CardActions>
       </Card>
@@ -328,6 +337,9 @@ const Project = repos => {
           <Button size="small" color="primary" href='https://lpham2525.github.io/weatherdashboard/' target='_blank'>
             Deployed App
           </Button>
+          <Button size="small" color="primary" href='#' target='_blank'>
+            More
+          </Button>
         </CardActions>
       </Card>
 
@@ -354,6 +366,9 @@ const Project = repos => {
           <Button size="small" color="primary" href='https://hidden-inlet-64215.herokuapp.com/' target='_blank'>
             Deployed App
           </Button>
+          <Button size="small" color="primary" href='#' target='_blank'>
+            More
+          </Button>
         </CardActions>
       </Card>
 
@@ -379,6 +394,9 @@ const Project = repos => {
           </Button>
           <Button size="small" color="primary" href='http://pacific-forest-54922.herokuapp.com/login' target='_blank'>
             Deployed App
+          </Button>
+          <Button size="small" color="primary" href='#' target='_blank'>
+            More
           </Button>
         </CardActions>
       </Card>
