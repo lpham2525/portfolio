@@ -2,7 +2,6 @@ import React from 'react'
 import Button from '@material-ui/core/Button'
 
 const Reactfolio = () => {
-  const classes = useStyles()
   return (
     <>
       <h1>React-folio Group Project</h1>
