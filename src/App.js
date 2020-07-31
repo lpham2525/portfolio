@@ -9,6 +9,7 @@ import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import reactPage from './pages/reactPage'
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
           </Route>
           <Route path='/Contact'>
             <Contact />
+          </Route>
+          <Route path='/reactPage'>
+            <reactPage />
           </Route>
         </Switch>
         <Footer />

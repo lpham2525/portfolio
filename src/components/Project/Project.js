@@ -395,7 +395,7 @@ const Project = repos => {
           <Button size="small" color="primary" href='http://pacific-forest-54922.herokuapp.com/login' target='_blank'>
             Deployed App
           </Button>
-          <Button size="small" color="primary" href='#' target='_blank'>
+          <Button size="small" color="primary" href='https://lpham2525.github.io/reactPage/' target='_blank'>
             More
           </Button>
         </CardActions>
