@@ -64,7 +64,6 @@ const Bio = () => {
             <img src={react} alt='React JS symbol' />
           </div>
           <div id='other'>
-            <h3>Other Skills</h3>
             <List className={classes.root}>
               <ListItem>
                 <ListItemAvatar>

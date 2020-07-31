@@ -134,7 +134,7 @@ import gem from './gem.png'
 import directory from './directory.png'
 import weather from './weather.png'
 import stats from './stats.png'
-import budget from './budget.png'
+import react from './react.png'
 
 const repos = [{
   id: 1,
@@ -173,11 +173,11 @@ const repos = [{
   summary: 'An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.'
 }, {
   id: 6,
-  name: 'Budget Tracker',
-  image: 'budget',
-  github: 'https://github.com/lpham2525/budget',
-  app: 'https://guarded-spire-68532.herokuapp.com/',
-  summary: 'An app in which users can add expenses and deposits to their budget with or without an internet connection. When entering transactions offline, the budget tracker will populate the total with the adjusted transactions when brought back online.'
+  name: 'React-folio',
+  image: 'react',
+  github: 'https://github.com/JonahHouse/React-folio',
+  app: 'http://pacific-forest-54922.herokuapp.com/login',
+  summary: 'An app in which users can create their own portfolio using elements built entirely from React components. The app utilizes password authentication so users can register and sign in securely. They are then directed to a dashboard where they can build their portfolio and then click "publish" to finalize their work.'
 }]
 
 const useStyles = makeStyles({
@@ -361,23 +361,23 @@ const Project = repos => {
         <CardActionArea>
           <CardMedia
             className={classes.media}
-            image={budget}
-            alt='Budget Tracker screenshot'
+            image={react}
+            alt='React-folio screenshot'
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Budget Tracker
+              React-folio
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app in which users can add expenses and deposits to their budget with or without an internet connection. When entering transactions offline, the budget tracker will populate the total with the adjusted transactions when brought back online.
+              An app in which users can create their own portfolio using elements built entirely from React components. The app utilizes password authentication so users can register and sign in securely. They are then directed to a dashboard where they can build their portfolio and then click "publish" to finalize their work.
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href='https://github.com/lpham2525/budget' target='_blank'>
+          <Button size="small" color="primary" href='https://github.com/JonahHouse/React-folio' target='_blank'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary" href='https://guarded-spire-68532.herokuapp.com/' target='_blank'>
+          <Button size="small" color="primary" href='http://pacific-forest-54922.herokuapp.com/login' target='_blank'>
             Deployed App
           </Button>
         </CardActions>
