@@ -11,7 +11,7 @@ const Reactfolio = () => {
       <h3>Technologies Used</h3>
       <p>React JS, MongoDB, Material UI styling library</p>
       <h4>Role: Collaborator on front and back-end.</h4>
-      <p> Responsible for setting up user authentication using Passport npm package, wrote most of the back-end routes, and assisted in creating React components, both for building the app and for the user to utilize in building a portfolio.</p>
+      <p> Responsible for setting up user authentication using Passport npm package, wrote most of the back-end routes, and assisted in creating React components, both for building the app and for the user to select from in building a portfolio.</p>
       <Button size="small" color="primary" href='https://github.com/JonahHouse/React-folio' target='_blank'>
       GitHub Link
       </Button>

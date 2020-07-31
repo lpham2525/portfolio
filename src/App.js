@@ -21,7 +21,6 @@ const App = () => {
           <Route exact path='/'>
             <Homepage />
           </Route>
-
           <Route path='/Portfolio'>
             <Portfolio />
           </Route>
