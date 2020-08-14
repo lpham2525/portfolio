@@ -1,4 +1,5 @@
 import React from 'react'
+import Container from '@material-ui/core/Container'
 import github from './github.png'
 import linked from './linked.png'
 import resume from './resume.jpg'
