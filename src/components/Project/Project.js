@@ -242,8 +242,11 @@ const Project = repos => {
             <Typography variant="body2" color="textSecondary" component="p">
               An app which points users to restaurants which have high ratings but are overlooked because they have sparse reviews.Using Google Maps, the app pinpoints the user's location and then leverages the user's input or keyword(s) to locate local eateries with ratings of 4 stars or higher but with fewer than 100 reviews.
               <br />
-              Technologies Used: HTML, CSS, JS, GoogleMaps API, Zomato API
-              Role: Collaborator(front-end)
+              <br />
+              <strong>Technologies Used:</strong> HTML, CSS, JS, GoogleMaps API, Zomato API
+              <br />
+              <br />
+              <strong>Role: </strong>Collaborator(front-end)
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -274,8 +277,11 @@ const Project = repos => {
             <Typography variant="body2" color="textSecondary" component="p">
               An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.
               <br />
-              Technologies Used: Express, MongoDB, Mongoose
-              Role: Sole contributor(back-end)
+              <br />
+              <strong>Technologies Used: </strong>Express, MongoDB, Mongoose
+              <br />
+              <br />
+              <strong>Role: </strong>Sole contributor(back-end)
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -305,8 +311,11 @@ const Project = repos => {
             <Typography variant="body2" color="textSecondary" component="p">
               The User Directory app provides users a way to view non-sensitive data about the people in the directory. It allows users to sort the table by last name or job title as well as filter the directory by first or last name. The app is built with React and breaks up the application's UI into components, manages component state, and responds to user events.
               <br />
-              Technologies Used: Bootstrap, React, Mockaroo
-              Role: Sole contributor(front/back-end)
+              <br />
+              <strong>Technologies Used: </strong>Bootstrap, React, Mockaroo
+              <br />
+              <br />
+              <strong>Role: </strong>Sole contributor(front/back-end)
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -336,9 +345,12 @@ const Project = repos => {
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               An app where users can input the name of a city and receive weather information for that city. Information includes current temperature, humidity, wind speed, and UV index as well as a five-day forecast. Users can also save the city in their searches for convenient navigation and future use.
-
-              Technologies Used: HTML, Bootstrap, JS, OpenWeatherMap API
-              Role: Sole contributor(front/back-end)
+              <br />
+              <br />
+              <strong>Technologies Used: </strong>HTML, Bootstrap, JS, OpenWeatherMap API
+              <br />
+              <br />
+              <strong>Role: </strong>Sole contributor(front/back-end)
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -369,8 +381,11 @@ const Project = repos => {
             <Typography variant="body2" color="textSecondary" component="p">
               An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale.
               <br />
-              Technologies Used: JS, Node, MySQL, Materialize, imgur API
-              Role: Collaborator on front/back-end
+              <br />
+              <strong>Technologies Used: </strong>JS, Node, MySQL, Materialize, imgur API
+              <br />
+              <br />
+              <strong>Role: </strong>Collaborator on front/back-end
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -401,8 +416,11 @@ const Project = repos => {
             <Typography variant="body2" color="textSecondary" component="p">
               An app in which users can create their own portfolio using elements built entirely from React components. The app utilizes password authentication so users can register and sign in securely. They are then directed to a dashboard where they can build their portfolio and then click "publish" to see their final work.
               <br />
-              Technologies Used: React, MongoDB, Material-UI
-              Role: Collaborator on front and back-end
+              <br />
+              <strong>Technologies Used: </strong>React, MongoDB, Material-UI
+              <br />
+              <br />
+              <strong>Role: </strong>Collaborator on front and back-end
             </Typography>
           </CardContent>
         </CardActionArea>
