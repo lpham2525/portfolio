@@ -1,83 +1,39 @@
 import React from 'react'
-import './Contact.css'
-import TextField from '@material-ui/core/TextField'
-import { makeStyles } from '@material-ui/core/styles'
-import Button from '@material-ui/core/Button'
-import Icon from '@material-ui/core/Icon'
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    '& .MuiTextField-root': {
-      margin: 'theme.spacing(1)',
-      width: '25ch'
-    },
-    button: {
-      margin: theme.spacing(1)
-    }
-  }
-}))
+import github from './github.png'
+import linked from './linked.png'
+import resume from './resume.jpg'
 
 const Contact = () => {
   const classes = useStyles()
   return (
     <>
-      <h1 id='contactHeader'>I'd love to hear from you!</h1>
-      <p className='paragraph'>Fill out the following form if you would like to send me a message. Thank you! </p>
-      <form>
+      <h1 id='contactHeader'>Let's Connect!</h1>
+      <p className='paragraph'>See below for my contact information or to view my source code and resume!</p>
+      <div className='info'>
         <p>
-          <div className='form-group'>
-            <label htmlFor='Name' />
-            <TextField
-              required
-              id="filled-required"
-              label="Required"
-              placeholder="Name"
-              variant="outlined"
-              className="white"
-            />
-          </div>
+          <ins><strong>PHONE</strong></ins>
+          <br />
+            714-696-2676
         </p>
         <p>
-          <div className='form-group'>
-            <label htmlFor='exampleInputEmail1' />
-            <TextField
-              required
-              id="filled-required"
-              label="Required"
-              placeholder="Email"
-              variant="outlined"
-              className="white"
-            />
-            <small id='emailHelp' className='form-text text-muted' />
-          </div>
+          <ins><strong>EMAIL</strong></ins>
+          <br />
+            Lpham2525@gmail.com
         </p>
         <p>
-          <div className='form-group'>
-            <label htmlFor='subject' />
-            <TextField
-              id="outlined-helperText"
-              placeholder="Subject"
-              variant="outlined"
-              className="white"
-            />
-            <small className='form-text text-muted' />
-          </div>
+          <img src={github} alt='github symbol' />
+          <br />
+          <a href='https://github.com/lpham2525' target='_blank' rel="noopener noreferrer">Github</a>
         </p>
-        <div className='form-group'>
-          <label htmlFor='Message' />
-          <textarea cols="80" rows="15" placeholder='Please type message here.' />
-        </div>
+        <img src={linked} alt='linkedin logo' />
+        <br />
+        <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
         <p>
-          <Button
-            variant="contained"
-            color="primary"
-            className={classes.button}
-            endIcon={<Icon>send</Icon>}
-          >
-          Send
-          </Button>
+          <img src={resume} alt="capital letter R" />
+          <br />
+          <a href='https://drive.google.com/file/d/16xoE3nrZytlFOK936A7f_VrD2Cga4IOU/view?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
         </p>
-      </form>
+      </div>
     </>
   )
 }
