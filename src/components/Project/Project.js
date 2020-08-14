@@ -277,7 +277,6 @@ const Project = repos => {
               <br />
               <strong>Technologies Used: </strong>
               <br />
-              <br />
               Express, MongoDB, Mongoose
               <br />
               <br />
@@ -310,7 +309,6 @@ const Project = repos => {
               <br />
               <br />
               <strong>Technologies Used: </strong>
-              <br />
               <br />
               Bootstrap, React, Mockaroo
               <br />
@@ -345,7 +343,6 @@ const Project = repos => {
               <br />
               <br />
               <strong>Technologies Used: </strong>
-              <br />
               <br />
               HTML, Bootstrap, JS, OpenWeatherMap API
               <br />
@@ -412,7 +409,6 @@ const Project = repos => {
               <br />
               <br />
               <strong>Technologies Used: </strong>
-              <br />
               <br />
               React, MongoDB, Material-UI
               <br />
