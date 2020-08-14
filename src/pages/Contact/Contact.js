@@ -8,7 +8,6 @@ const Contact = () => {
   return (
     <>
       <Container maxWidth='sm'>
-      <h1 id='contactHeader'>Let's Connect!</h1>
       <div className='info'>
         <p>
           <ins><strong>PHONE</strong></ins>

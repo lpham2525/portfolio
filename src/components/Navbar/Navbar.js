@@ -37,9 +37,6 @@ const Navbar = () => {
           <Link to='/Contact' color='inherit' className={classes.link} className='links'>
             Contact
           </Link>
-          <Link to='/reactPage' color='inherit' className={classes.link} className='links'>
-            Reactfolio Project
-          </Link>
         </Typography>
       </Toolbar>
     </AppBar>
