@@ -4,7 +4,6 @@ import linked from './linked.png'
 import resume from './resume.jpg'
 
 const Contact = () => {
-  const classes = useStyles()
   return (
     <>
       <h1 id='contactHeader'>Let's Connect!</h1>
