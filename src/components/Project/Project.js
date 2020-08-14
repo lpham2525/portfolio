@@ -243,7 +243,7 @@ const Project = repos => {
               An app which points users to restaurants which have high ratings but are overlooked because they have sparse reviews.Using Google Maps, the app pinpoints the user's location and then leverages the user's input or keyword(s) to locate local eateries with ratings of 4 stars or higher but with fewer than 100 reviews.
               <br />
               <br />
-              <strong>Technologies Used:</strong> HTML, CSS, JS, GoogleMaps API, Zomato API
+              <strong>Technologies Used:</strong> HTML, Materialize, JS, GoogleMaps API, Zomato API
               <br />
               <br />
               <strong>Role: </strong>Collaborator(front-end)
@@ -256,9 +256,6 @@ const Project = repos => {
           </Button>
           <Button size="small" color="primary" href='https://erikapaige.github.io/LittleGems/' target='_blank'>
             Deployed App
-          </Button>
-          <Button size="small" color="primary" href='#' target='_blank'>
-            More
           </Button>
         </CardActions>
       </Card>
@@ -278,7 +275,10 @@ const Project = repos => {
               An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.
               <br />
               <br />
-              <strong>Technologies Used: </strong>Express, MongoDB, Mongoose
+              <strong>Technologies Used: </strong>
+              <br />
+              <br />
+              Express, MongoDB, Mongoose
               <br />
               <br />
               <strong>Role: </strong>Sole contributor(back-end)
@@ -291,9 +291,6 @@ const Project = repos => {
           </Button>
           <Button size="small" color="primary" href='https://boiling-ocean-01580.herokuapp.com/' target='_blank'>
             Deployed App
-          </Button>
-          <Button size="small" color="primary" href='#' target='_blank'>
-            More
           </Button>
         </CardActions>
       </Card>
@@ -312,7 +309,10 @@ const Project = repos => {
               The User Directory app provides users a way to view non-sensitive data about the people in the directory. It allows users to sort the table by last name or job title as well as filter the directory by first or last name. The app is built with React and breaks up the application's UI into components, manages component state, and responds to user events.
               <br />
               <br />
-              <strong>Technologies Used: </strong>Bootstrap, React, Mockaroo
+              <strong>Technologies Used: </strong>
+              <br />
+              <br />
+              Bootstrap, React, Mockaroo
               <br />
               <br />
               <strong>Role: </strong>Sole contributor(front/back-end)
@@ -325,9 +325,6 @@ const Project = repos => {
           </Button>
           <Button size="small" color="primary" href="https://lpham2525.github.io/directory/" target='_blank'>
             Deployed App
-          </Button>
-          <Button size="small" color="primary" href='#' target='_blank'>
-            More
           </Button>
         </CardActions>
       </Card>
@@ -347,7 +344,10 @@ const Project = repos => {
               An app where users can input the name of a city and receive weather information for that city. Information includes current temperature, humidity, wind speed, and UV index as well as a five-day forecast. Users can also save the city in their searches for convenient navigation and future use.
               <br />
               <br />
-              <strong>Technologies Used: </strong>HTML, Bootstrap, JS, OpenWeatherMap API
+              <strong>Technologies Used: </strong>
+              <br />
+              <br />
+              HTML, Bootstrap, JS, OpenWeatherMap API
               <br />
               <br />
               <strong>Role: </strong>Sole contributor(front/back-end)
@@ -360,9 +360,6 @@ const Project = repos => {
           </Button>
           <Button size="small" color="primary" href='https://lpham2525.github.io/weatherdashboard/' target='_blank'>
             Deployed App
-          </Button>
-          <Button size="small" color="primary" href='#' target='_blank'>
-            More
           </Button>
         </CardActions>
       </Card>
@@ -382,10 +379,10 @@ const Project = repos => {
               An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale.
               <br />
               <br />
-              <strong>Technologies Used: </strong>JS, Node, MySQL, Materialize, imgur API
+              <strong>Technologies Used: </strong>HTML, JS, Node, MySQL, Materialize, imgur API
               <br />
               <br />
-              <strong>Role: </strong>Collaborator on front/back-end
+              <strong>Role: </strong>Collaborator(front/back-end)
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -395,9 +392,6 @@ const Project = repos => {
           </Button>
           <Button size="small" color="primary" href='https://hidden-inlet-64215.herokuapp.com/' target='_blank'>
             Deployed App
-          </Button>
-          <Button size="small" color="primary" href='#' target='_blank'>
-            More
           </Button>
         </CardActions>
       </Card>
@@ -417,10 +411,13 @@ const Project = repos => {
               An app in which users can create their own portfolio using elements built entirely from React components. The app utilizes password authentication so users can register and sign in securely. They are then directed to a dashboard where they can build their portfolio and then click "publish" to see their final work.
               <br />
               <br />
-              <strong>Technologies Used: </strong>React, MongoDB, Material-UI
+              <strong>Technologies Used: </strong>
               <br />
               <br />
-              <strong>Role: </strong>Collaborator on front and back-end
+              React, MongoDB, Material-UI
+              <br />
+              <br />
+              <strong>Role: </strong>Collaborator(front and back-end)
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -430,9 +427,6 @@ const Project = repos => {
           </Button>
           <Button size="small" color="primary" href='http://pacific-forest-54922.herokuapp.com/login' target='_blank'>
             Deployed App
-          </Button>
-          <Button size="small" color="primary" href='https://lpham2525.github.io/reactPage/' target='_blank'>
-            More
           </Button>
         </CardActions>
       </Card>
