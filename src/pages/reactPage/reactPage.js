@@ -52,16 +52,15 @@ const useStyles = makeStyles({
   }
 })
 
-export default function MediaCard() {
+const reactPage = () => {
   const classes = useStyles()
-
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image=''
+          title='React-folio screenshot'
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -73,13 +72,15 @@ export default function MediaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
+        <Button size="small" color="primary" href='https://github.com/JonahHouse/React-folio' target='_blank'>
+          GitHub Link
         </Button>
-        <Button size="small" color="primary">
-          Learn More
+        <Button size="small" color="primary" href='http://pacific-forest-54922.herokuapp.com/login' target='_blank'>
+          Deployed App
         </Button>
       </CardActions>
     </Card>
   )
 }
+
+export default reactPage
