@@ -6,8 +6,8 @@ import resume from './resume.jpg'
 const Contact = () => {
   return (
     <>
+      <Container maxWidth='sm'>
       <h1 id='contactHeader'>Let's Connect!</h1>
-      <p className='paragraph'>See below for my contact information or to view my source code and resume!</p>
       <div className='info'>
         <p>
           <ins><strong>PHONE</strong></ins>
@@ -33,6 +33,7 @@ const Contact = () => {
           <a href='https://drive.google.com/file/d/16xoE3nrZytlFOK936A7f_VrD2Cga4IOU/view?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
         </p>
       </div>
+      </Container>
     </>
   )
 }
