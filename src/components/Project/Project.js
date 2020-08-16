@@ -277,7 +277,7 @@ const Project = repos => {
               <br />
               <strong>Technologies Used: </strong>
               <br />
-              Express, MongoDB, Mongoose
+              Node JS, Express, MongoDB, Mongoose
               <br />
               <br />
               <strong>Role: </strong>Sole contributor(back-end)
@@ -410,10 +410,10 @@ const Project = repos => {
               <br />
               <strong>Technologies Used: </strong>
               <br />
-              React, MongoDB, Material-UI
+              React, MongoDB, Passport NPM, Material-UI
               <br />
               <br />
-              <strong>Role: </strong>Collaborator(front and back-end)
+              <strong>Role: </strong>Collaborator(front/back-end)
             </Typography>
           </CardContent>
         </CardActionArea>
