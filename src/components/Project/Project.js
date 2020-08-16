@@ -414,6 +414,9 @@ const Project = repos => {
               <br />
               <br />
               <strong>Role: </strong>Collaborator(front/back-end)
+              <br />
+              <br />
+              Guest account username & password: guestAccount
             </Typography>
           </CardContent>
         </CardActionArea>
