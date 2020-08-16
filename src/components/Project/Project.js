@@ -405,18 +405,17 @@ const Project = repos => {
               React-folio
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app in which users can create their own portfolio using elements built entirely from React components. The app utilizes password authentication so users can register and sign in securely. They are then directed to a dashboard where they can build their portfolio and then click "publish" to see their final work.
+              An app where users can create a portfolio with React components. The app uses password authentication for secure registration/sign-in. Users can build a portfolio on the dashboard and click "publish" to see the final work.
               <br />
               <br />
               <strong>Technologies Used: </strong>
-              <br />
               React, MongoDB, Passport NPM, Material-UI
               <br />
               <br />
               <strong>Role: </strong>Collaborator(front/back-end)
               <br />
               <br />
-              Guest account username & password: guestAccount
+              <strong>Guest account username & password:</strong> guestAccount
             </Typography>
           </CardContent>
         </CardActionArea>
