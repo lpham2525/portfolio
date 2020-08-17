@@ -37,15 +37,15 @@ const Bio = () => {
               I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Contact me if you'd like to know more!
             </p>
           </div>
-          <div class='skills'>
+          <div className='skills'>
             <h1>Technical Skills</h1>
-            <img src={html} alt='HTML5 symbol' />
-            <img src={css} alt='CSS symbol' />
-            <img src={js} alt='JS symbol' />
-            <img src={mysql} alt='MySQL symbol' />
-            <img src={mongo} alt='MongoDB symbol' />
-            <img src={react} alt='React JS symbol' />
-            <img src={node} alt='Node JS symbol' />
+            <img className='symbols' src={html} alt='HTML5 symbol' />
+            <img className='symbols' src={css} alt='CSS symbol' />
+            <img className='symbols' src={js} alt='JS symbol' />
+            <img className='symbols' src={mysql} alt='MySQL symbol' />
+            <img className='symbols' src={mongo} alt='MongoDB symbol' />
+            <img className='symbols' src={react} alt='React JS symbol' />
+            <img className='symbols' src={node} alt='Node JS symbol' />
           </div>
         </Grid>
       </Container>
