@@ -31,10 +31,10 @@ const Bio = () => {
           Hi there! I'm LanChi, a front-end web developer who enjoys building websites which are user-friendly and visually appealing.
             </p>
             <p>
-          I recently earned a certificate in Full Stack Development from the University of California, Irvine, which heightened my skills in problem-solving, teamwork, and analysis as well as stretching and strengthening my resourcefulness and creativity.
+          I have a certificate in Full Stack Web Development from the University of CA, Irvine, which heightened my skills in problem-solving, teamwork, and analysis as well as strengthening my resourcefulness and creativity.
             </p>
             <p>
-        Before coding, I was a medical social worker for five years which taught me how to work on an interdisciplinary team and how to understand what clients truly want and need. I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Contact me if you'd like to know more!
+              I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Contact me if you'd like to know more!
             </p>
           </div>
           <div class='skills'>
