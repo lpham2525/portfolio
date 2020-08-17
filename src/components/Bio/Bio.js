@@ -5,6 +5,9 @@ import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import pic from './pic.jpg'
 import node from './node.jpg'
+import html from './html.jpg'
+import css from './css.jpg'
+import js from './js.jpg'
 import mysql from './mysql.jpg'
 import mongo from './mongo.jpg'
 import react from './react.jpg'
@@ -32,7 +35,9 @@ const Bio = () => {
           </div>
           <div class='skills'>
             <h1>Technical Skills</h1>
-            <img src={three} alt='HTML5, CSS, JS symbol' />
+            <img src={html} alt='HTML5 symbol' />
+            <img src={css} alt='CSS symbol' />
+            <img src={js} alt='JS symbol' />
             <img src={mysql} alt='MySQL symbol' />
             <img src={mongo} alt='MongoDB symbol' />
             <img src={react} alt='React JS symbol' />
