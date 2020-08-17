@@ -6,9 +6,8 @@ body {
 
 .bio {
   height: 50%;
-  width: 700px;
-  font-size: 30px;
-  background-color: palevioletred;
+  width: 100%;
+  font-size: 15px;
   padding: 20px;
   margin-bottom: 20px;
 }
