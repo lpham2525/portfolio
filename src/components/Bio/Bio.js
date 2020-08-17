@@ -18,18 +18,17 @@ const Bio = () => {
     <>
       <CssBaseline />
       <Container maxWidth='sm'>
-        <div>
-          <img src={pic} alt='profile' className='pic' />
-          <br />
-          <h2>LanChi Pham, Full-Stack Developer</h2>
-        </div>
         <Grid
           container
           direction="row"
           justify="space-evenly"
           alignItems="center"
         >
-
+          <div>
+            <img src={pic} alt='profile' className='pic' />
+            <br />
+            <h2>LanChi Pham, Full-Stack Developer</h2>
+          </div>
           <div className='bio'>
           My goal is to become a junior developer and web designer who can create dynamic webpages that are responsive and interactive. I also enjoy styling and designing user interfaces. I am open to job opportunities as well as relocating to launch my coding career. Contact me if you'd like to know more!
           </div>
