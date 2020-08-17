@@ -11,7 +11,6 @@ import js from './js.jpg'
 import mysql from './mysql.jpg'
 import mongo from './mongo.jpg'
 import react from './react.jpg'
-import three from './three.jpg'
 
 const Bio = () => {
   return (
@@ -24,13 +23,19 @@ const Bio = () => {
           justify="space-evenly"
           alignItems="center"
         >
-          <div>
+          <div className='bio'>
             <img src={pic} alt='profile' className='pic' />
             <br />
             <h2>LanChi Pham, Full-Stack Developer</h2>
-          </div>
-          <div className='bio'>
-          My goal is to become a junior developer and web designer who can create dynamic webpages that are responsive and interactive. I also enjoy styling and designing user interfaces. I am open to job opportunities as well as relocating to launch my coding career. Contact me if you'd like to know more!
+            <p>
+          Hi there! I'm LanChi, a front-end web developer who enjoys building websites which are user-friendly and visually appealing.
+            </p>
+            <p>
+          I recently earned a certificate in Full Stack Development from the University of California, Irvine, which heightened my skills in problem-solving, teamwork, and analysis as well as stretching and strengthening my resourcefulness and creativity.
+            </p>
+            <p>
+        Before coding, I was a medical social worker for five years which taught me how to collaborate on an interdisciplinary team, refine performance with feedback, and understand what clients truly want and need. I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Contact me if you'd like to know more!
+            </p>
           </div>
           <div class='skills'>
             <h1>Technical Skills</h1>
