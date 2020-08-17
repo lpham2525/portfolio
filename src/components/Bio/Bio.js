@@ -39,7 +39,7 @@ const Bio = () => {
           I have a certificate in Full Stack Web Development from the University of CA, Irvine, which heightened my skills in problem-solving, teamwork, and analysis as well as strengthening my resourcefulness and creativity.
             </p>
             <p>
-              I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Contact me if you'd like to know more!
+              I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. <a href="https://lpham2525.github.io/Contact">Contact me if you'd like to know more!</a>
             </p>
           </div>
           <hr />
