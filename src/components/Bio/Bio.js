@@ -3,14 +3,19 @@ import './Bio.css'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
-import pic from './pic.jpg'
-import node from './node.jpg'
-import html from './html.jpg'
-import css from './css.jpg'
-import js from './js.jpg'
-import mysql from './mysql.jpg'
-import mongo from './mongo.jpg'
-import react from './react.jpg'
+import pic from './images/pic.jpg'
+import express from './images/express.jpg'
+import bootstrap from './images/bootstrap.jpg'
+import materialize from './images/materialize.jpg'
+import matUI from './images/matUI.jpg'
+import npm from './images/npm.jpg'
+import node from './images/node.jpg'
+import html from './images/html.jpg'
+import css from './images/css.jpg'
+import js from './images/js.jpg'
+import mysql from './images/mysql.jpg'
+import mongo from './images/mongo.jpg'
+import react from './images/react.jpg'
 
 const Bio = () => {
   return (
@@ -37,6 +42,7 @@ const Bio = () => {
               I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Contact me if you'd like to know more!
             </p>
           </div>
+          <hr />
           <div className='skills'>
             <h1>Technical Skills</h1>
             <img className='symbols' src={html} alt='HTML5 symbol' />
@@ -46,6 +52,11 @@ const Bio = () => {
             <img className='symbols' src={mongo} alt='MongoDB symbol' />
             <img className='symbols' src={react} alt='React JS symbol' />
             <img className='symbols' src={node} alt='Node JS symbol' />
+            <img className='symbols' src={bootstrap} alt='bootstrap symbol' />
+            <img className='symbols' src={materialize} alt='materialize symbol' />
+            <img className='symbols' src={matUI} alt='material-UI symbol' />
+            <img className='symbols' src={express} alt='express symbol' />
+            <img className='symbols' src={npm} alt='npm symbol' />
           </div>
         </Grid>
       </Container>
