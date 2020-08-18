@@ -5,14 +5,13 @@ import github from './images/github.png'
 import linked from './images/linked.png'
 import resume from './images/resume.jpg'
 import gmail from './images/gmail.jpg'
-import mailbox from './images/mailbox.jpg'
+//import mailbox from './images/mailbox.jpg'
 import phone from './images/phone.jpg'
 
 const Contact = () => {
   return (
     <>
       <Container maxWidth='sm'>
-        <img className="symbol" src={mailbox} alt="mailbox symbol" />
         <h1 className='header'>I'd love to hear from you! Let's connect!</h1>
         <div className='info'>
           <p>

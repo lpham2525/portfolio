@@ -1,7 +1,7 @@
 import React from 'react'
 import './Bio.css'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import Container from '@material-ui/core/Container'
+//import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import pic from './images/pic.jpg'
 import express from './images/express.jpg'
@@ -21,7 +21,6 @@ const Bio = () => {
   return (
     <>
       <CssBaseline />
-      <Container maxWidth='sm'>
         <Grid
           container
           direction="row"
@@ -42,8 +41,6 @@ const Bio = () => {
               I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. <a href="https://lpham2525.github.io/Contact">Contact me if you'd like to know more!</a>
             </p>
           </div>
-          <hr />
-          <hr />
           <div className='skills'>
             <h1>Technical Skills</h1>
             <img className='symbols' src={html} alt='HTML5 symbol' />
@@ -60,7 +57,6 @@ const Bio = () => {
             <img className='symbols' src={npm} alt='npm symbol' />
           </div>
         </Grid>
-      </Container>
     </>
   )
 }
