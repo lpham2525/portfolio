@@ -1,6 +1,7 @@
 import React from 'react'
 import './Bio.css'
 import { Link } from 'react-router-dom'
+import Container from '@material-ui/core/Container'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import Grid from '@material-ui/core/Grid'
 import pic from './images/pic.jpg'
@@ -26,6 +27,7 @@ const Bio = () => {
           justify="space-evenly"
           alignItems="center"
         >
+        <Container maxWidth='sm'>
           <div className='bio'>
             <img src={pic} alt='profile' className='pic' />
             <h2 className='lobster'>LanChi Pham, Front-End Developer</h2>
@@ -39,6 +41,7 @@ const Bio = () => {
             I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
             </p>
           </div>
+        </Container>
           <hr />
           <hr />
           <div className='skills'>
