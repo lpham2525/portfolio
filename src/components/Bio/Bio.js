@@ -1,7 +1,6 @@
 import React from 'react'
 import './Bio.css'
 import { Link } from 'react-router-dom'
-import Container from '@material-ui/core/Container'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import Grid from '@material-ui/core/Grid'
 import pic from './images/pic.jpg'
@@ -21,7 +20,6 @@ const Bio = () => {
   return (
     <>
       <CssBaseline />
-      <Container maxWidth='lg'>
         <Grid
           container
           direction="row"
@@ -58,7 +56,6 @@ const Bio = () => {
             <img className='symbols' src={npm} alt='npm symbol' />
           </div>
         </Grid>
-      </Container>
     </>
   )
 }

@@ -28,7 +28,7 @@ const Navbar = () => {
     <AppBar position='static'>
       <Toolbar className='nav'>
         <Typography variant="h6" className={classes.title}>
-          <Link to="/" color='inherit' className={classes.link} className='links'>
+          <Link to="/" color='inherit' className={classes.link} className='link'>
             Homepage
           </Link>
           <Link to="/Portfolio" color="inherit" className={classes.link} className='links'>
@@ -37,6 +37,23 @@ const Navbar = () => {
           <Link to='/Contact' color='inherit' className={classes.link} className='links'>
             Contact
           </Link>
+          <a href='https://www.linkedin.com/in/lanchi-pham/' target="_blank" id="linkedIn">
+            <i
+              className='fab fa-linkedin'
+            />
+          </a>
+
+          <a href='https://github.com/lpham2525' target='_blank' id="git">
+            <i className="fab fa-github" />
+          </a>
+
+          <a href='mailto:lpham2525@gmail.com? subject=subject text ' target="_blank" id="email-link"><i
+            className="fas fa-envelope-square" />
+          </a>
+
+          <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' id="resume">
+            <i className="far fa-file" />
+          </a>
         </Typography>
       </Toolbar>
     </AppBar>
