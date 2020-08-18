@@ -1,6 +1,7 @@
 import React from 'react'
 import './Bio.css'
 import { Link } from 'react-router-dom'
+// import Container from '@material-ui/core/Container'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import Grid from '@material-ui/core/Grid'
 import pic from './images/pic.jpg'
@@ -26,10 +27,10 @@ const Bio = () => {
         justify="space-evenly"
         alignItems="center"
       >
+        <img src={pic} alt='profile' className='pic' />
+        <br />
         <div className='bio'>
-          <img src={pic} alt='profile' className='pic' />
-          <br />
-          <h2>LanChi Pham, Front-End Developer</h2>
+          <h2 className="Lobster">LanChi Pham, Front-End Developer</h2>
           <p>
           Hi there! I'm LanChi, a front-end web developer who enjoys building websites which are user-friendly and visually appealing.
           </p>
@@ -37,13 +38,13 @@ const Bio = () => {
           I have a certificate in Full Stack Web Development from the University of CA, Irvine, which heightened my skills in problem-solving, teamwork, and analysis as well as strengthening my resourcefulness and creativity.
           </p>
           <p>
-          I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Check out my <Link href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</Link> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
+          I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
           </p>
         </div>
         <hr />
         <hr />
         <div className='skills'>
-          <h1>Technical Skills</h1>
+          <h1 className="Lobster">Technical Skills</h1>
           <img className='symbols' src={html} alt='HTML5 symbol' />
           <img className='symbols' src={css} alt='CSS symbol' />
           <img className='symbols' src={js} alt='JS symbol' />

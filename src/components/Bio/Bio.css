@@ -23,14 +23,19 @@ h2 {
   font-size: 25px;
 }
 
+.lobster {
+  font-family: Lobster;
+}
+
 .bio {
   height: 50%;
   width: 80%;
   font-size: 20px;
-  font-family: Lobster;
   padding: 20px;
   margin-bottom: 20px;
   margin-top: 3em;
+  text-align: center;
+  background-color: palevioletred
 }
 
 .info {
