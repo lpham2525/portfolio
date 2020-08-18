@@ -17,13 +17,11 @@ const Contact = () => {
         <div className='info'>
           <p>
             <img className="symbol" src={phone} alt='phone symbol' />
-            <ins><strong>PHONE</strong></ins>
             <br />
               714-696-2676
           </p>
           <p>
             <img className="symbol" src={gmail} alt='gmail symbol' />
-            <ins><strong>EMAIL</strong></ins>
             <br />
             <span className='email'>Lpham2525@gmail.com</span>
           </p>
@@ -38,7 +36,7 @@ const Contact = () => {
           <p>
             <img src={resume} alt="capital letter R" />
             <br />
-            <a href='https://drive.google.com/file/d/16xoE3nrZytlFOK936A7f_VrD2Cga4IOU/view?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
+            <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
           </p>
         </div>
       </Container>

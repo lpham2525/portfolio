@@ -43,6 +43,7 @@ const Bio = () => {
             </p>
           </div>
           <hr />
+          <hr />
           <div className='skills'>
             <h1>Technical Skills</h1>
             <img className='symbols' src={html} alt='HTML5 symbol' />

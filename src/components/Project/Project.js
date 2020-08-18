@@ -343,7 +343,6 @@ const Project = repos => {
               <br />
               <br />
               <strong>Technologies Used: </strong>
-              <br />
               HTML, Bootstrap, JS, OpenWeatherMap API
               <br />
               <br />
