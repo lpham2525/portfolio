@@ -4,7 +4,6 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 //import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import pic from './images/pic.jpg'
-import express from './images/express.jpg'
 import bootstrap from './images/bootstrap.jpg'
 import materialize from './images/materialize.jpg'
 import matUI from './images/matUI.jpg'
@@ -53,7 +52,6 @@ const Bio = () => {
             <img className='symbols' src={bootstrap} alt='bootstrap symbol' />
             <img className='symbols' src={materialize} alt='materialize symbol' />
             <img className='symbols' src={matUI} alt='material-UI symbol' />
-            <img className='symbols' src={express} alt='express symbol' />
             <img className='symbols' src={npm} alt='npm symbol' />
           </div>
         </Grid>
