@@ -4,28 +4,6 @@ body {
   text-align: center;
 }
 
-.bio {
-  height: 50%;
-  width: 100%;
-  font-size: 20px;
-  background-color: palevioletred;
-  padding: 20px;
-  margin-bottom: 20px;
-  margin-top: 3em;
-}
-
-.info {
-  height: 50%;
-  width: 400px;
-  font-size: 30px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 25px;
-}
-
 .pic {
   height: 200px;
   width: 200px;
@@ -41,19 +19,34 @@ h2 {
   z-index: 10;
 }
 
+h2 {
+  font-size: 25px;
+}
+
+.bio {
+  height: 50%;
+  width: 80%;
+  font-size: 20px;
+  font-family: Lobster;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 3em;
+}
+
+.info {
+  height: 50%;
+  width: 400px;
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
 .skills {
   background-color: skyblue;
   height: 50%;
   width: 100%;
   padding: 10px;
   margin: 10px;
-}
-
-.other {
-  background-color: blueviolet;
-  height: 80%;
-  width: 50%;
-  margin: 20px;
 }
 
 .symbols {

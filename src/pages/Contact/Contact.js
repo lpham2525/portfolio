@@ -5,7 +5,6 @@ import github from './images/github.png'
 import linked from './images/linked.png'
 import resume from './images/resume.jpg'
 import gmail from './images/gmail.jpg'
-//import mailbox from './images/mailbox.jpg'
 import phone from './images/phone.jpg'
 
 const Contact = () => {
