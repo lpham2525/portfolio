@@ -5,11 +5,6 @@ import Typography from '@material-ui/core/Typography'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import './Navbar.css'
-import github from './images/github.png'
-import linked from './images/linked.png'
-import resume from './images/resume.jpg'
-import gmail from './images/gmail.jpg'
-import phone from './images/phone.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -45,20 +40,20 @@ const Navbar = () => {
 
           {/* Icons */}
 
-          <a href='https://www.linkedin.com/in/lanchi-pham/' target="_blank" id="linkedIn">
-            <i className='fab fa-linkedin' style='font-size:36px' />
+          <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank' rel='noopener noreferrer' id='linkedIn'>
+            <i className='fab fa-linkedin' />
           </a>
 
           <a href='https://github.com/lpham2525' target='_blank' id='git' rel='noopener noreferrer'>
-            <i className='fab fa-github' style='font-size:25px' />
+            <i className='fab fa-github' />
           </a>
 
-          <a href='mailto:lpham2525@gmail.com? subject=subject text ' target="_blank" id="email-link">
-            <i className="fas fa-envelope-square" style='font-size:20px'/>
+          <a href='mailto:lpham2525@gmail.com? subject=subject text ' target='_blank' rel='noopener noreferrer' id='email-link'>
+            <i className='fas fa-envelope-square' />
           </a>
 
-          <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' id="resume">
-            <i className="far fa-file-alt" style='font-size:30px' />
+          <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer' id='resume'>
+            <i className='far fa-file-alt' />
           </a>
         </Typography>
       </Toolbar>

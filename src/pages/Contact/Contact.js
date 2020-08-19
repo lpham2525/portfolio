@@ -26,7 +26,7 @@ const Contact = () => {
           <p>
             <img src={github} alt='github symbol' />
             <br />
-            <a href='https://github.com/lpham2525' target='_blank' rel="noopener noreferrer">Github</a>
+            <a href='https://github.com/lpham2525' target='_blank' rel='noopener noreferrer'>Github</a>
           </p>
           <img src={linked} alt='linkedin logo' />
           <br />
