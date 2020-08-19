@@ -21,29 +21,30 @@ const Bio = () => {
   return (
     <>
       <CssBaseline />
+      <Container maxWidth='sm'>
         <Grid
           container
           direction="row"
           justify="space-evenly"
           alignItems="center"
         >
-        <Container maxWidth='sm'>
-          <div className='bio'>
-            <img src={pic} alt='profile' className='pic' />
-            <h2 className='lobster'>LanChi Pham, Front-End Developer</h2>
-            <p>
-            Hi there! I'm LanChi, a front-end web developer who enjoys building websites which are user-friendly and visually appealing.
-            </p>
-            <p>
-            I have a certificate in Full Stack Web Development from the University of CA, Irvine, which heightened my skills in problem-solving, teamwork, and analysis as well as strengthening my resourcefulness and creativity.
-            </p>
-            <p>
-            I look forward to contributing my skills to an organization that seeks to create compelling, intuitive, and visually magnetic websites and apps. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
-            </p>
+        <div className='bio'>
+          <div className="grid-container">
+            <div>
+                <img src={pic} alt='profile' className='pic' />
+                <h2 className='lobster'>LanChi Pham, Front-End Developer</h2>
+            </div>
+            <div>
+              <p>
+                Hi there! I'm LanChi, a front-end web developer who enjoys building websites which are user-friendly and visually appealing.
+              </p>
+              <p>
+                I have a certificate in Full Stack Web Development from the University of CA, Irvine and I look forward to contributing my skills to an organization that seeks to create compelling and intuitive websites and apps. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
+              </p>
+            </div>
           </div>
-        </Container>
-          <hr />
-          <hr />
+        </div>
+      </Container>
           <div className='skills'>
             <h1 className='lobster'>Technical Skills</h1>
             <img className='symbols' src={html} alt='HTML5 symbol' />

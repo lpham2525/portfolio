@@ -32,9 +32,8 @@ h2 {
   width: 80%;
   font-size: 20px;
   padding: 20px;
-  margin-bottom: 20px;
-  margin-top: 3em;
-  text-align: center;
+  margin: 20px 0px 20px 0px;
+  text-align: justify;
   background-color: palevioletred
 }
 
@@ -44,6 +43,12 @@ h2 {
   font-size: 30px;
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .skills {
