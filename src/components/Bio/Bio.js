@@ -21,7 +21,7 @@ const Bio = () => {
   return (
     <>
       <CssBaseline />
-      <Container maxWidth='sm'>
+      <Container maxWidth='lg'>
         <Grid
           container
           direction="row"
