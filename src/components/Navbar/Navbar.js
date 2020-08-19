@@ -39,22 +39,23 @@ const Navbar = () => {
           </Link>
 
           {/* Icons */}
+          <div className='icon'>
+            <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank' rel='noopener noreferrer' id='linkedIn'>
+              <i className='fab fa-linkedin links' />
+            </a>
 
-          <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank' rel='noopener noreferrer' id='linkedIn'>
-            <i className='fab fa-linkedin' />
-          </a>
+            <a href='https://github.com/lpham2525' target='_blank' id='git' rel='noopener noreferrer'>
+              <i className='fab fa-github links' />
+            </a>
 
-          <a href='https://github.com/lpham2525' target='_blank' id='git' rel='noopener noreferrer'>
-            <i className='fab fa-github' />
-          </a>
+            <a href='mailto:lpham2525@gmail.com? subject=subject text ' target='_blank' rel='noopener noreferrer' id='email-link'>
+              <i className='fas fa-envelope-square links' />
+            </a>
 
-          <a href='mailto:lpham2525@gmail.com? subject=subject text ' target='_blank' rel='noopener noreferrer' id='email-link'>
-            <i className='fas fa-envelope-square' />
-          </a>
-
-          <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer' id='resume'>
-            <i className='far fa-file-alt' />
-          </a>
+            <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer' id='resume'>
+              <i className='far fa-file-alt links' />
+            </a>
+          </div>
         </Typography>
       </Toolbar>
     </AppBar>
