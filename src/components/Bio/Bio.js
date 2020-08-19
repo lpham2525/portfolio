@@ -29,10 +29,10 @@ const Bio = () => {
           alignItems="center"
         >
           <div className='bio'>
-            <div className="grid-container">
-              <div>
-                  <img src={pic} alt='profile' className='pic' />
-                  <h2 className='lobster'>LanChi Pham, Front-End Developer</h2>
+            <div className='grid-container'>
+              <div className='gridOne'>
+                <img src={pic} alt='profile' className='pic' />
+                <h2 className='lobster'>LanChi Pham, Front-End Developer</h2>
               </div>
               <div>
                 <p>

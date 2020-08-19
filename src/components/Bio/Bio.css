@@ -4,9 +4,14 @@ body {
   text-align: center;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .pic {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -27,6 +32,8 @@ h2 {
   font-family: Lobster;
 }
 
+/* bio section */
+
 .bio {
   height: 50%;
   width: 80%;
@@ -37,18 +44,10 @@ h2 {
   background-color: palevioletred
 }
 
-.info {
-  height: 50%;
-  width: 400px;
-  font-size: 30px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
+/* Technical Skills Section  */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+.techHead {
+  font-size: 30px;
 }
 
 .skills {
@@ -59,12 +58,8 @@ h2 {
   margin: 10px;
 }
 
-.techHead{
-  font-size: 30px;
-}
-
 .symbols {
-  margin-top: 30px;
+  margin-top: 10px;
   height: 100px;
   width: auto;
   padding: 0 10px;
