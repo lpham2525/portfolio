@@ -28,6 +28,7 @@ const Navbar = () => {
     <AppBar position='static'>
       <Toolbar className='nav'>
         <Typography variant="h6" className={classes.title}>
+          <div>
           <Link to="/" color='inherit' className={classes.link} className='links'>
             Homepage
           </Link>
@@ -55,6 +56,7 @@ const Navbar = () => {
             <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer' id='resume'>
               <i className='far fa-file-alt links' />
             </a>
+          </div>
           </div>
         </Typography>
       </Toolbar>
