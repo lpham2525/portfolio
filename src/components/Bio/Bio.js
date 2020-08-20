@@ -1,5 +1,7 @@
 import React from 'react'
 import './Bio.css'
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 import { Link } from 'react-router-dom'
 import Container from '@material-ui/core/Container'
 import CssBaseline from '@material-ui/core/CssBaseline'
@@ -16,8 +18,23 @@ import js from './images/js.jpg'
 import mysql from './images/mysql.jpg'
 import mongo from './images/mongo.jpg'
 import react from './images/react.jpg'
+import { palevioletred } from '@material-ui/core/colors'
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    '& > *': {
+      margin: theme.spacing(1),
+      width: theme.spacing(16),
+      height: theme.spacing(16),
+      backgroundColor: palevioletred
+    }
+  }
+}))
 
 const Bio = () => {
+  const classes = useStyles();
   return (
     <>
       <CssBaseline />
@@ -29,6 +46,8 @@ const Bio = () => {
           alignItems="center"
         >
           <div className='bio'>
+            <div className={classes.root}>
+              <Paper elevation={3} style={{ backgroundColor: 'palevioletred' }}>
                 <img src={pic} alt='profile' className='pic' />
                 <h2 className='lobster'>LanChi Pham, Front-End Developer</h2>
                 <p>
@@ -37,6 +56,8 @@ const Bio = () => {
                 <p>
                   I have a certificate in Full Stack Web Development from the University of CA, Irvine and I look forward to contributing my skills to an organization that seeks to create compelling and intuitive websites and apps. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
                 </p>
+              </Paper>
+            </div>
           </div>
         </Grid>
       </Container>
