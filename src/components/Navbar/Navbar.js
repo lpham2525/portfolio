@@ -39,7 +39,7 @@ const Navbar = () => {
           </Link>
         </Typography>
         {/* Icons */}
-        <div className='icon'>
+        <div className='icon' style={{ float: 'right' }}>
           <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank' rel='noopener noreferrer' id='linkedIn'>
             <i className='fab fa-linkedin links' />
           </a>
