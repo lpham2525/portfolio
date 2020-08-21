@@ -6,7 +6,7 @@ import Scroll from '../../components/Scroll'
 const Portfolio = () => {
   return (
     <>
-      <h1>Welcome to the Portfolio Page!</h1>
+      <h1 style={{ fontFamily: 'lobster' }}>Welcome to the Portfolio Page!</h1>
       <Grid
         container
         direction="row"

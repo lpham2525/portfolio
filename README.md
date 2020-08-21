@@ -33,6 +33,6 @@ The design features:
 
 Technologies Used
 -------------------------------------------
-React, Material-UI
+React, Material-UI Styling Library
 
 &copy;Copyright 2020 LanChi Pham
