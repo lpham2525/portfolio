@@ -8,13 +8,13 @@ import CardMedia from '@material-ui/core/CardMedia'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import './Project.css'
-import artist from './artist.png'
-import gem from './gem.png'
-import directory from './directory.png'
-import weather from './weather.png'
-import stats from './stats.png'
-import react from './react.png'
-import Scroll from '../Scroll.js'
+import artist from './images/artist.png'
+import gem from './images/gem.png'
+import directory from './images/directory.png'
+import weather from './images/weather.png'
+import stats from './images/stats.png'
+import react from './images/react.png'
+import Scroll from '../../Scroll.js'
 
 // const repos = [{
 //   id: 1,
@@ -108,7 +108,6 @@ const Project = repos => {
     //   )
     // }
     <>
-    <Scroll showBelow={250} />
       <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
@@ -308,7 +307,7 @@ const Project = repos => {
           </Button>
         </CardActions>
       </Card>
-      <a href=''
+      <Scroll showBelow={250} />
     </>
   )
 }
