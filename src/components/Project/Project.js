@@ -14,7 +14,7 @@ import directory from './images/directory.png'
 import weather from './images/weather.png'
 import stats from './images/stats.png'
 import react from './images/react.png'
-import Scroll from '../../Scroll.js'
+import Scroll from '../Scroll.js'
 
 // const repos = [{
 //   id: 1,
