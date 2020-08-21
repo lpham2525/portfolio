@@ -1,6 +1,7 @@
 import React from 'react'
 import Project from '../../components/Project'
 import Grid from '@material-ui/core/Grid'
+import Scroll from '../../components/Scroll.js'
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,7 @@ const Portfolio = () => {
         className="Project"
       >
         <Project />
+        <Scroll showBelow={250} />
       </Grid>
     </>
   )
