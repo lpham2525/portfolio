@@ -23,7 +23,9 @@ const Contact = () => {
           <p>
             <img className='symbol' src={gmail} alt='gmail symbol' />
             <br />
-            <span className='email'>Lpham2525@gmail.com</span>
+            <a href='mailto:lpham2525@gmail.com? subject=subject text ' target='_blank' rel='noopener noreferrer' id='email-link'>
+              Lpham2525@gmail.com
+            </a>
           </p>
           <p>
             <img className='symbol' src={github} alt='github symbol' />
