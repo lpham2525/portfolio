@@ -1,7 +1,7 @@
 import React from 'react'
 import Project from '../../components/Project'
 import Grid from '@material-ui/core/Grid'
-import Scroll from '../../components/Scroll.js'
+import Scroll from '../../components/Scroll'
 
 const Portfolio = () => {
   return (
