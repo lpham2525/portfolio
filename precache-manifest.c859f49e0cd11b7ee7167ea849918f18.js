@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9eba3a88ebe4c633632e9d30f470521",
+    "revision": "5fdaa4682b00bcdd33a370c8b6d3f7d8",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "680470c831446a8994f8",
-    "url": "/portfolio/static/css/main.3445858d.chunk.css"
+    "revision": "fa6da81a1fe48abd215b",
+    "url": "/portfolio/static/css/main.3ca4187a.chunk.css"
   },
   {
     "revision": "b92d0a42a47c47b8c878",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.450f7698.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "680470c831446a8994f8",
-    "url": "/portfolio/static/js/main.38387b55.chunk.js"
+    "revision": "fa6da81a1fe48abd215b",
+    "url": "/portfolio/static/js/main.d60a03fd.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/artist.779a7d45.png"
   },
   {
-    "revision": "5c41e037a257885535947063bfd1f284",
-    "url": "/portfolio/static/media/delivery.5c41e037.jpg"
+    "revision": "41dc2614844fdd7b7c1c0a7f880950b4",
+    "url": "/portfolio/static/media/delivery.41dc2614.jpg"
   },
   {
     "revision": "736463573ab462b50a7cf8a37ac0f5a2",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/gem.5ff7f2c6.png"
   },
   {
-    "revision": "ed044adca519ba4c89f154cf53dfa99f",
-    "url": "/portfolio/static/media/pic.ed044adc.jpg"
+    "revision": "a87b4f4e8d5ee271c548028c2f8df31a",
+    "url": "/portfolio/static/media/pic.a87b4f4e.jpg"
   },
   {
     "revision": "338b524e0c123ea64e37d2e05c09eb12",
