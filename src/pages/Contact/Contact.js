@@ -6,11 +6,13 @@ import linked from './images/linked.png'
 import resume from './images/resume.jpg'
 import gmail from './images/gmail.jpg'
 import phone from './images/phone.jpg'
+import laptop from './images/laptop.jpg'
 
 const Contact = () => {
   return (
     <>
       <Container maxWidth='sm'>
+        <img className='laptop' src={laptop} alt='laptop sending mail' />
         <h1 className='header'>I'd love to hear from you! Let's connect!</h1>
         <div className='info'>
           <p>
