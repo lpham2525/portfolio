@@ -30,11 +30,11 @@ const Contact = () => {
           </p>
           <img className='symbol' src={linked} alt='linkedin logo' />
           <br />
-          <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+          <a href='https://www.linkedin.com/in/lanchi-pham/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
           <p>
-            <img className='symbol' src={resume} alt="capital letter R" />
+            <img className='symbol' src={resume} alt='capital letter R' />
             <br />
-            <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel="noopener noreferrer">Résumé</a>
+            <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>Résumé</a>
           </p>
         </div>
       </Container>

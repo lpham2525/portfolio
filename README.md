@@ -1,4 +1,5 @@
 React Portfolio
+-----------------------------------------------------
 
 ![Portfolio](./src/img/port.png?raw=true "portfolio page")
 ------------------------------------------
@@ -29,5 +30,9 @@ The design features:
 * Mobile-first design
 
 * Font size that is large enough to read, and colors which don't cause eye strain.
+
+Technologies Used
+-------------------------------------------
+React, Material-UI
 
 &copy;Copyright 2020 LanChi Pham
