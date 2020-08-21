@@ -13,7 +13,7 @@ body {
 /* picture */
 
 .pic {
-  height: 300px;
+  height: 250px;
   width: 250px;
   border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -69,8 +69,11 @@ h2 {
 .skills {
   background-color: skyblue;
   height: 50%;
-  width: 100%;
+  width: 90%;
+  margin-top: 20px;
   padding: 10px;
+  box-shadow: 5px 10px 10px 10px #888888;
+  -webkit-box-shadow: 5px 10px 10px 10px #888888;
 }
 
 .symbols {
