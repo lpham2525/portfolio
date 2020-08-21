@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.da354031.chunk.css",
-    "main.js": "/portfolio/static/js/main.5aa9898c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5aa9898c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.3445858d.chunk.css",
+    "main.js": "/portfolio/static/js/main.6715e70e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6715e70e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.450f7698.chunk.js": "/portfolio/static/js/2.450f7698.chunk.js",
-    "static/js/2.450f7698.chunk.js.map": "/portfolio/static/js/2.450f7698.chunk.js.map",
+    "static/js/2.232999c2.chunk.js": "/portfolio/static/js/2.232999c2.chunk.js",
+    "static/js/2.232999c2.chunk.js.map": "/portfolio/static/js/2.232999c2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ed5f73d57563f56727eafdf64375928c.js": "/portfolio/precache-manifest.ed5f73d57563f56727eafdf64375928c.js",
+    "precache-manifest.b9324b11fcfb0802592eeaa4eb88de42.js": "/portfolio/precache-manifest.b9324b11fcfb0802592eeaa4eb88de42.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.da354031.chunk.css.map": "/portfolio/static/css/main.da354031.chunk.css.map",
-    "static/js/2.450f7698.chunk.js.LICENSE.txt": "/portfolio/static/js/2.450f7698.chunk.js.LICENSE.txt",
+    "static/css/main.3445858d.chunk.css.map": "/portfolio/static/css/main.3445858d.chunk.css.map",
+    "static/js/2.232999c2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.232999c2.chunk.js.LICENSE.txt",
     "static/media/artist.png": "/portfolio/static/media/artist.779a7d45.png",
+    "static/media/delivery.jpg": "/portfolio/static/media/delivery.5c41e037.jpg",
     "static/media/directory.png": "/portfolio/static/media/directory.73646357.png",
     "static/media/gem.png": "/portfolio/static/media/gem.5ff7f2c6.png",
-    "static/media/laptop.jpg": "/portfolio/static/media/laptop.83863483.jpg",
     "static/media/pic.jpg": "/portfolio/static/media/pic.ed044adc.jpg",
     "static/media/react.png": "/portfolio/static/media/react.338b524e.png",
     "static/media/stats.png": "/portfolio/static/media/stats.241fb3e0.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.450f7698.chunk.js",
-    "static/css/main.da354031.chunk.css",
-    "static/js/main.5aa9898c.chunk.js"
+    "static/js/2.232999c2.chunk.js",
+    "static/css/main.3445858d.chunk.css",
+    "static/js/main.6715e70e.chunk.js"
   ]
 }
