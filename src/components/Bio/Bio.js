@@ -13,6 +13,7 @@ import node from './images/node.jpg'
 import html from './images/html.jpg'
 import css from './images/css.jpg'
 import js from './images/js.jpg'
+import jquery from './images/jquery.jpg'
 import mysql from './images/mysql.jpg'
 import mongo from './images/mongo.jpg'
 import react from './images/react.jpg'
@@ -45,6 +46,7 @@ const Bio = () => {
         <img className='symbols' src={html} alt='HTML5 symbol' />
         <img className='symbols' src={css} alt='CSS symbol' />
         <img className='symbols' src={js} alt='JS symbol' />
+        <img className='symbols' src={jquery} alt='jQuery symbol' />
         <img className='symbols' src={mysql} alt='MySQL symbol' />
         <img className='symbols' src={mongo} alt='MongoDB symbol' />
         <img className='symbols' src={react} alt='React JS symbol' />

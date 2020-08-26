@@ -12,7 +12,7 @@ import artist from './images/artist.png'
 import gem from './images/gem.png'
 import directory from './images/directory.png'
 import weather from './images/weather.png'
-import stats from './images/stats.png'
+import google from './images/google.png'
 import react from './images/react.png'
 
 // const repos = [{
@@ -45,11 +45,11 @@ import react from './images/react.png'
 //   summary: 'An app where users can input the name of a city and receive weather information for that city. Information includes current temperature, humidity, wind speed, and UV index as well as a five-day forecast. Users can also save the city in their searches for convenient navigation and future use.'
 // }, {
 //   id: 5,
-//   name: 'Workout Tracker',
-//   image: 'stats',
-//   github: 'https://github.com/lpham2525/workout_tracker',
-//   app: 'https://boiling-ocean-01580.herokuapp.com/',
-//   summary: 'An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.'
+//   name: 'Google Books',
+//   image: 'google',
+//   github: 'https://github.com/lpham2525/googlebooks',
+//   app: 'https://vast-ridge-81306.herokuapp.com/',
+//   summary: 'An app which allows users to search for books using the Google Books API. The user can also click "View" to see details about the book or "Save" to store info about the book in the Mongo database. Users can delete the book from the database as well.'
 // }, {
 //   id: 6,
 //   name: 'React-folio',
@@ -143,31 +143,30 @@ const Project = repos => {
         <CardActionArea>
           <CardMedia
             className={classes.media}
-            image={stats}
-            alt='Workout Tracker screenshot'
+            image={google}
+            alt='Google Books screenshot'
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Workout Tracker
+              Google Books
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app which allows users to view, create, and track daily workouts. It also enables users to track the name, type, weight, sets, reps, and duration of resistance exercises. If the exercise is a cardio exercise, the workout tracker keeps track of the distance traveled. Last, the app includes charts and graphs of the workouts to give users a visual depiction of their progress.
+              An app which allows users to search for books using the Google Books API. The user can also click "View" to see details about the book, "Save" to store info about the book in the Mongo database, or "delete" to remove the book from the database.
               <br />
               <br />
               <strong>Technologies Used: </strong>
+              Google Books API, MongoDB, React, Material-UI
               <br />
-              Node JS, Express, MongoDB, Mongoose
               <br />
-              <br />
-              <strong>Role: </strong>Sole contributor(back-end)
+              <strong>Role: </strong>Sole contributor(front/back-end)
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" href='https://github.com/lpham2525/workout_tracker' target='_blank'>
+          <Button size="small" color="primary" href='https://github.com/lpham2525/googlebooks/' target='_blank'>
             GitHub Link
           </Button>
-          <Button size="small" color="primary" href='https://boiling-ocean-01580.herokuapp.com/' target='_blank'>
+          <Button size="small" color="primary" href='https://vast-ridge-81306.herokuapp.com/' target='_blank'>
             Deployed App
           </Button>
         </CardActions>
