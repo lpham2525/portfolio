@@ -36,7 +36,7 @@ const Bio = () => {
                   Hi there! I'm LanChi, a front-end web developer who enjoys building websites which are user-friendly and visually appealing.
             </p>
             <p>
-                  I have a certificate in Full Stack Web Development from the University of CA, Irvine and I look forward to contributing my skills to an organization that seeks to create compelling and intuitive websites and apps. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
+                  I have a certificate in Full Stack Web Development from the University of CA, Irvine and I look forward to contributing my skills to an organization that seeks to create compelling and intuitive websites. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
             </p>
           </div>
         </Grid>

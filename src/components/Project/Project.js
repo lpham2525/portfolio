@@ -119,7 +119,7 @@ const Project = repos => {
               Little Gems
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app which points users to restaurants which have high ratings but are overlooked because they have sparse reviews.Using Google Maps, the app pinpoints the user's location and then leverages the user's input or keyword(s) to locate local eateries with ratings of 4 stars or higher but with fewer than 100 reviews.
+              Little Gems points users to restaurants which have high ratings but are often overlooked because the restaurants have sparse reviews. Using Google Maps, Little Gems pinpoints the user's location and then leverages the user's input or keyword(s) to locate local eateries with ratings of 4 stars or higher but with fewer than 100 reviews.
               <br />
               <br />
               <strong>Technologies Used:</strong> HTML, Materialize, JS, GoogleMaps API, Zomato API
@@ -151,7 +151,7 @@ const Project = repos => {
               Google Books
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app which allows users to search for books using the Google Books API. The user can also click "View" to see details about the book, "Save" to store info about the book in the Mongo database, or "delete" to remove the book from the database.
+              Google Books allows users to search for books using the Google Books API. The user can also click "View" to see details about the book, "Save" to store info about the book in the Mongo database, or "delete" to remove the book from the database.
               <br />
               <br />
               <strong>Technologies Used: </strong>
@@ -183,7 +183,7 @@ const Project = repos => {
               User Directory
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              The User Directory app provides users a way to view non-sensitive data about the people in the directory. It allows users to sort the table by last name or job title as well as filter the directory by first or last name. The app is built with React and breaks up the application's UI into components, manages component state, and responds to user events.
+              The User Directory provides users a way to view non-sensitive data about the people in the directory.  The User Directory allows users to sort the table by last name or job title as well as filter the directory by first or last name. The User Directory is built with React and breaks up the UI into components, manages component state, and responds to user events.
               <br />
               <br />
               <strong>Technologies Used: </strong>
@@ -217,7 +217,7 @@ const Project = repos => {
               Weather Dashboard
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app where users can input the name of a city and receive weather information for that city. Information includes current temperature, humidity, wind speed, and UV index as well as a five-day forecast. Users can also save the city in their searches for convenient navigation and future use.
+              Weather Dashboard allows users to input the name of a city and receive weather information for that city. Information includes current temperature, humidity, wind speed, and UV index as well as a five-day forecast. Users can also save the city in their searches for convenient navigation and future use.
               <br />
               <br />
               <strong>Technologies Used: </strong>
@@ -250,7 +250,7 @@ const Project = repos => {
               Artist A Day
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app which provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale.
+              Artist A Day provides consumers with a curated art shopping experience. Artists can upload their work and the app helps their art pieces stand out in the crowd. Each day features a new artist and the artist's work in a timed sale.
               <br />
               <br />
               <strong>Technologies Used: </strong>HTML, JS, Node, MySQL, Materialize, imgur API
@@ -282,7 +282,7 @@ const Project = repos => {
               React-folio
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              An app where users can create a portfolio with React components. Users can build a portfolio on the dashboard and click "publish" to see the final work.
+              React-folio enables users to create a portfolio with React components. Users can build a portfolio on the dashboard and click "publish" to see the final work.
               <br />
               <br />
               <strong>Technologies Used: </strong>
