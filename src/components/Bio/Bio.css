@@ -69,9 +69,9 @@ h2 {
 .skills {
   background-color: skyblue;
   height: 50%;
-  width: 100%;
+  width: auto;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 0px;
   padding: 10px;
   box-shadow: 5px 10px 10px 10px #888888;
   -webkit-box-shadow: 5px 10px 10px 10px #888888;
