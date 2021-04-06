@@ -33,10 +33,12 @@ const Bio = () => {
             <img src={pic} alt='profile' className='pic' />
             <h2 className='lobster'>LanChi Pham, Front-End Developer</h2>
             <p>
-                  Hi there! I'm LanChi, a front-end web developer who enjoys building websites which are user-friendly and visually appealing.
+              Hi, there! I'm LanChi, a front-end developer with a full-stack web development certificate from the University of CA, Irvine.
+            <p>
+              My goal is to be a web developer who can create dynamic webpages that are as responsive and interactive as they are eye-popping and aesthetically bold.
             </p>
             <p>
-                  I have a certificate in Full Stack Web Development from the University of CA, Irvine and I look forward to contributing my skills to an organization that seeks to create compelling and intuitive websites. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
+            I look forward to contributing my skills to an organization that seeks to create compelling and intuitive websites. Check out my <a href='https://docs.google.com/document/d/1_eTe9DgBEbg6MghlNdJ14XX2KabCraCMirG6O505fH8/edit?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a> or <Link to='/Contact'> contact </Link> me if you'd like to know more!
             </p>
           </div>
         </Grid>

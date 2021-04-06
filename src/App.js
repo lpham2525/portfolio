@@ -16,7 +16,6 @@ const App = () => {
       <div>
         <Navbar />
         <Switch>
-
           <Route exact path='/'>
             <Homepage />
           </Route>

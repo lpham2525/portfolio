@@ -22,7 +22,7 @@ const Footer = () => {
     <>
       <CssBaseline />
       <AppBar position='fixed' color='primary' className={classes.appBar}>
-        &copy;Copyright 2020 LanChi Pham
+        &copy;Copyright 2021 LanChi Pham
       </AppBar>
     </>
   )
