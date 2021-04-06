@@ -34,6 +34,7 @@ const Bio = () => {
             <h2 className='lobster'>LanChi Pham, Front-End Developer</h2>
             <p>
               Hi, there! I'm LanChi, a front-end developer with a full-stack web development certificate from the University of CA, Irvine.
+            </p>
             <p>
               My goal is to be a web developer who can create dynamic webpages that are as responsive and interactive as they are eye-popping and aesthetically bold.
             </p>
